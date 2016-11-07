@@ -1,12 +1,12 @@
-# <Feature Title>
+# Feature Title
 
-<Describe the feature>
+... Describe the feature ...
 
 
-## Story - <Story Title>
+## Story - Story Title
 
-As a <type of user>, I want <some goal> so that <some reason>.
-<++ more description>
+As a "type of user", I want "some goal" so that "some reason".
+... more description ...
 
 ### Estimate
 
