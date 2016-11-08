@@ -10,6 +10,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * Enterprise distribution :moneybag:
 * HTML area references
 * Repo Service API
+* JavaScript Controller Testing Framework
 
 ## Q1-2017
 
