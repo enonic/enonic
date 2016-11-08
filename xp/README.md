@@ -7,7 +7,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 ## Q4-2016
 
-* Scheduled Publishing :rocket:
+* [Scheduled Publishing](features/scheduled-publishing.md) :rocket:
 * [Repo Service API](features/repo-service-api.md)
 * [Configuration management API](features/configuration-management-api.md) :rocket:
 * Role for adding applications to site
@@ -20,7 +20,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * Show/suggest alt text and enable editing in (Insert image)
 * Remove file extention from display name for media
 * Show/suggest caption from image caption and description (Insert image)
-* Support json in require-js resolving
+* [Support json in require-js resolving](json-require-resolving.md)
 * Add Caption, Artist, Copyright to Vector images in Media
 
 ## Q1-2017
