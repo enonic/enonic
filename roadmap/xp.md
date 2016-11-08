@@ -9,15 +9,22 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 * [Repo Service API](../features/xp/repo-service-api.md)
 * [JavaScript Controller Testing Framework](../features/xp/js-controller-testing.md)
+* Role for adding applications to site
+* HTMLarea source role
 
 ## Q1-2017
 
 * Job Scheduler
-* ElasticSearch upgrade
+* ElasticSearch 2.4 upgrade
+* Improve content life-cycle support
+* Save as Page Template
 
 ## Q2-2017
 
 * [Enterprise distribution](../features/xp/enterprise-disribution.md) :moneybag:
+* Help-menu for all admin tools
+* Support dragging folders with media in Content Studio
+* Site roles
 
 ## Q3-2017
 
