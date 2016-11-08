@@ -11,6 +11,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * [JavaScript Controller Testing Framework](../features/xp/js-controller-testing.md)
 * Role for adding applications to site
 * HTMLarea source role
+* Configuration management API
 
 ## Q1-2017
 
