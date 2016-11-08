@@ -1,6 +1,6 @@
 # Repo Service API
 
-As a developer, I want to be able to create and manage my own storage so I can work with data that are not Content.
+As a developer, I want to be able to create and manage my own storage so I can store and manage data that are not Content.
 
 ## Estimate
 
