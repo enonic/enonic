@@ -10,8 +10,8 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * HTMLarea source role :rocket:
 * Configuration management API :rocket:
 * Scheduled Publishing :rocket:
-* [Repo Service API](../features/xp/repo-service-api.md)
-* [JavaScript Controller Testing Framework](../features/xp/js-controller-testing.md)
+* [Repo Service API](features/repo-service-api.md)
+* [JavaScript Controller Testing Framework](features/js-controller-testing.md)
 * Role for adding applications to site
 * Dim content where the user has only read access (Content Studio)
 * Increase hit box area in grid (arrows) (Admin)
@@ -25,7 +25,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 ## Q2-2017
 
-* [Enterprise distribution](../features/xp/enterprise-disribution.md) :moneybag:
+* [Enterprise distribution](features/enterprise-disribution.md) :moneybag:
 * Help-menu for all admin tools
 * Support dragging folders with media (Content Studio)
 * Site roles
