@@ -9,7 +9,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 * Scheduled Publishing :rocket:
 * [Repo Service API](features/repo-service-api.md)
-* Configuration management API :rocket:
+* [Configuration management API](features/configuration-management-api.md) :rocket:
 * Role for adding applications to site
 * HTMLarea source role :rocket:
 * [JavaScript Controller Testing Framework](features/js-controller-testing.md)
