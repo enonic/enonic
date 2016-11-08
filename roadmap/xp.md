@@ -7,17 +7,17 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 ## Q4-2016
 
-* HTML area references
-* Repo Service API
+* [Repo Service API](../features/xp/repo-service-api.md)
 * [JavaScript Controller Testing Framework](../features/xp/js-controller-testing.md)
 
 ## Q1-2017
 
-* [Enterprise distribution](../features/xp/enterprise-disribution.md) :moneybag:
 * Job Scheduler
 * ElasticSearch upgrade
 
 ## Q2-2017
+
+* [Enterprise distribution](../features/xp/enterprise-disribution.md) :moneybag:
 
 ## Q3-2017
 
