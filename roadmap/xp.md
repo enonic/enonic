@@ -7,13 +7,13 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 ## Q4-2016
 
+* HTMLarea source role :rocket:
+* Configuration management API :rocket:
+* Scheduled Publishing :rocket:
 * [Repo Service API](../features/xp/repo-service-api.md)
 * [JavaScript Controller Testing Framework](../features/xp/js-controller-testing.md)
 * Role for adding applications to site
-* HTMLarea source role
-* Configuration management API
 * Dim content where the user has only read access (Content Studio)
-* Scheduled Publishing
 * Increase hit box area in grid (arrows) (Admin)
 
 ## Q1-2017
