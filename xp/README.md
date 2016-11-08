@@ -6,7 +6,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * :rocket: - promised to customers.
 
 
-## Q4-2016
+### Q4-2016
 
 * Scheduled Publishing :rocket:
 * [Repo Service API](features/repo-service-api.md)
@@ -24,20 +24,20 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * Support json in require-js resolving
 * Add Caption, Artist, Copyright to Vector images in Media
 
-## Q1-2017
+### Q1-2017
 
 * Job Scheduler
 * ElasticSearch 2.4 upgrade
 * Improve content life-cycle support
 * Save as Page Template
 
-## Q2-2017
+### Q2-2017
 
 * [Enterprise distribution](features/enterprise-disribution.md) :moneybag:
 * Help-menu for all admin tools
 * Support dragging folders with media (Content Studio)
 * Site roles
 
-## Q3-2017
+### Q3-2017
 
-## Q4-2017
+### Q4-2017
