@@ -13,7 +13,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 ## Q1-2017
 
-* [Enterprise distribution](../features/xp/enterprise-distribution.md) :moneybag:
+* [Enterprise distribution](../features/xp/enterprise-disribution.md) :moneybag:
 * Job Scheduler
 * ElasticSearch upgrade
 
