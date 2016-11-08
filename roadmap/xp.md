@@ -12,6 +12,9 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * Role for adding applications to site
 * HTMLarea source role
 * Configuration management API
+* Dim content where the user has only read access (Content Studio)
+* Scheduled Publishing
+* Increase hit box area in grid (arrows) (Admin)
 
 ## Q1-2017
 
@@ -24,7 +27,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 * [Enterprise distribution](../features/xp/enterprise-disribution.md) :moneybag:
 * Help-menu for all admin tools
-* Support dragging folders with media in Content Studio
+* Support dragging folders with media (Content Studio)
 * Site roles
 
 ## Q3-2017
