@@ -4,7 +4,7 @@ As a developer, I want to be able to create and manage my own storage so I can s
 
 ## Estimate
 
-4 weeks
+6 weeks
 
 ## Requirements
 
