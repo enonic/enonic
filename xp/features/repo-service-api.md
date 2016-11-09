@@ -19,7 +19,7 @@ As a developer, I want to be able to create and manage my own storage so I can s
 
 * All new functionality should have minimum 80% code coverage
 * The Javascript-API documentation should be available
-* New features should be tested in the features-app
+* New Javascript-API should be tested in the features-app
 * Existing data from previous versions should work
 * Applications built on the old versions should work without having to rebuild the application with the new API
 * An application using the new API's should be created and used to test user experience
