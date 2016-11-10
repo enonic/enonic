@@ -8,7 +8,7 @@ of this user-story.
 
 ## Estimate
 
-1 week
+2 weeks
 
 ## Requirements
 
