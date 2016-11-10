@@ -20,7 +20,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * Show/suggest alt text and enable editing in (Insert image)
 * Remove file extention from display name for media
 * Show/suggest caption from image caption and description (Insert image)
-* [Support json in require-js resolving](json-require-resolving.md)
+* [Support json in require-js resolving](features/json-require-resolving.md)
 * Add Caption, Artist, Copyright to Vector images in Media
 
 ## Q1-2017
