@@ -4,17 +4,16 @@ As a User, I want the Content Wizard to open in a new browser tab/window instead
 
 ## Estimate
 
-6 days (4 days on development + 2 days on tests) 
+7 days (4 days on development + 3 days on tests) 
 
 ## Requirements
 
-* Change the navigation to open a new browser tab with the Content Wizard
-* Verify that events triggered by the Content Wizard in the new window are still caught by the Content Grid in the original window 
-* (To be confirmed) Change title of the browser window from "Content Studio - Enonic XP" to display name of the content opened in the Wizard, for example "Features"
-* (To be confirmed) For content that doesn't reside in the root show title as "<Root content name> - <Open content name>", for example "Features - My Content".
-* (To be confirmed) Remove "Content Studio" link in the top left corner so that user cannot navigate away from the Wizard
-* (To be confirmed) Remove "X" icon from the XP tab so that user closes the Wizard by closing the browser window
-* (To be confirmed - if previous requirement is met) Change event listeners from "X" icon to on window close
+* Content Wizard must open in a new browser tab
+* Browser tab must have content's display name in its title
+* All changes done to the content in the new tab must still be caught by the Content Grid in the original window
+* The Black bar on top must be removed
+* To the left of the action buttons in the Content Wizard Toolbar should be the Content Studio icon (the tree icon, black on white - see attached image) that will open the Content Grid in a new window
+* When I try to close the Wizard tab with unsaved changes, I should get the same confirmation as I do now when I close an XP tab
 
 ## Dependencies
 
