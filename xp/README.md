@@ -16,7 +16,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * Dim content where the user has only read access (Content Studio)
 * Increase hit box area in grid (arrows) (Admin)
 * Wizard step panel for mobile UI (Admin)
-* [Change native tabs to browser tabs](features/native-to-browser-tabs.md)
+* [Open Content Wizard in native browser tabs](features/native-to-browser-tabs.md)
 * [Show/suggest alt text and enable editing in (Insert image)](features/insert-image-alt-text.md)
 * [Remove file extension from display name for media](features/remove-extension.md)
 * [Show/suggest caption from image caption and description (Insert image)](features/insert-image-caption.md)
