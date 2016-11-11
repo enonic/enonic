@@ -1,4 +1,4 @@
-# Change native tabs to browser tabs
+# Open Content Wizard in native browser tab
 
 As a User, I want the Content Wizard to open in a new browser tab/window instead of XP tab
 
