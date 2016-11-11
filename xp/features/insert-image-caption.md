@@ -4,7 +4,7 @@ As a Content Manager, I want XP to retrieve caption from image meta-data when I 
 
 ## Estimate
 
-2 days
+1 day
 
 ## Requirements
 
