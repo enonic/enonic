@@ -14,6 +14,7 @@ As a User, I want the Content Wizard to open in a new browser tab/window instead
 * The Black bar on top must be removed
 * To the left of the action buttons in the Content Wizard Toolbar should be the Content Studio icon (the tree icon, black on white - see attached image) that will open the Content Grid in a new window
 * When I try to close the Wizard tab with unsaved changes, I should get the same confirmation as I do now when I close an XP tab
+* When content is deleted, the Wizard window must automatically close
 * User Wizard and Application Wizard must remain intact
 
 ## Dependencies
