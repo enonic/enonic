@@ -17,9 +17,9 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * Increase hit box area in grid (arrows) (Admin)
 * Wizard step panel for mobile UI (Admin)
 * Change native tabs to browser tabs
-* Show/suggest alt text and enable editing in (Insert image)(features/insert-image-alt-text.md)
+* [Show/suggest alt text and enable editing in (Insert image)](features/insert-image-alt-text.md)
 * Remove file extention from display name for media
-* Show/suggest caption from image caption and description (Insert image)(features/insert-image-caption.md)
+* [Show/suggest caption from image caption and description (Insert image)](features/insert-image-caption.md)
 * [Support json in require-js resolving](features/json-require-resolving.md)
 * Add Caption, Artist, Copyright to Vector images in Media
 
