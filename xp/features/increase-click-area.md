@@ -8,9 +8,8 @@ As a user, I want a more convenient way of expanding and collapsing nodes in the
 
 ## Requirements
 
+* Checkbox column is right-aligned under mobile resolution
 * Touch area around the collapse/expand arrow is big enough for a user to not have to precisely aim at it
-
-** To be concluded after response from TSI **
 
 ## Dependencies
 
@@ -20,3 +19,4 @@ None
 
 * All requirements are met
 * User test is satisfactory
+* Checkbox column is still left-aligned in desktop resolution
