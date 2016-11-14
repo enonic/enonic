@@ -13,7 +13,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * Role for adding applications to site
 * HTMLarea source role :rocket:
 * [JavaScript Controller Testing Framework](features/js-controller-testing.md)
-* Dim content where the user has only read access (Content Studio)
+* [Dim content where the user has only read access (Content Studio)](features/dim-readonly-content.md)
 * [Increase hit box area in grid (arrows) (Admin)](features/increase-click-area.md)
 * Wizard step panel for mobile UI (Admin)
 * [Open Content Wizard in native browser tabs](features/native-to-browser-tabs.md)
