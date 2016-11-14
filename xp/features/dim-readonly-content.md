@@ -8,9 +8,6 @@ As a user, I want content items that I have only read-only access to to be visua
 
 ## Requirements
 
-
-** To be concluded after response from TSI **
-
 * A content item with read-only access must have a "dimmed" effect in the Content Grid
 * A tooltip that says "Read-only" must be shown on hover of a content item with read-only access
 
