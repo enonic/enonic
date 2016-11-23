@@ -1,10 +1,10 @@
 # CMS Expert role
 
-As a content studio user, I should not be able to see the button "Source code" of HTML areas and Text areas if I do not have one of the following roles:  “cms.expert” or “cms.admin” “system.admin”.
+As a content studio user, I should not be able to see the button "Source code" of HTML areas and Text areas if I do not have one of the following roles:  “cms.expert”, “cms.admin” or “system.admin”.
 
 ## Estimate
 
-1 day
+<=1 day
 
 ## Requirements
 
