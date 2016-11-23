@@ -9,7 +9,7 @@ Warning: This permission check will not be executed if the Node API is accessed 
 
 ## Requirements
 
-* There should be a ContentAccessException thrown if a site configuration is added/modified/deleted through the content API
+* There should be a RoleViolationException thrown if a site configuration is added/modified/deleted through the content API and the user does not have one of the following roles: "cms.admin" or “system.admin”.
 * In Content Studio, the site configs combobox should not be editable if I do not have the role "cms.admin"
 
 ## Acceptance Criteria
