@@ -15,7 +15,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * [JavaScript Controller Testing Framework](features/js-controller-testing.md)
 * [Dim content where the user has only read access (Content Studio)](features/dim-readonly-content.md)
 * [Increase hit box area in grid (arrows) (Admin)](features/increase-click-area.md)
-* Wizard step panel for mobile UI (Admin)
+* [Wizard step panel for mobile UI (Admin)](features/wiz-panel-mobile/index.md
 * [Open Content Wizard in native browser tabs](features/native-to-browser-tabs.md)
 * [Show/suggest alt text and enable editing in (Insert image)](features/insert-image-alt-text.md)
 * [Remove file extension from display name for media](features/remove-extension.md)
