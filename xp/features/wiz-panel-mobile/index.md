@@ -9,10 +9,10 @@ Also, when clicking to the left and right of the centered label, it will move yo
 ## Designs
 Below are the suggested design sketches:
 
-![First step](/wiz-panel-mobile/first-step.jpg)
+![First step](first-step.jpg)
 
-![Middle step](/wiz-panel-mobile/middle-step.jpg)
+![Middle step](middle-step.jpg)
 
-![Dropdown](/wiz-panel-mobile/dropdown.jpg)
+![Dropdown](dropdown.jpg)
 
-![Last](/wiz-panel-mobile/last-step.jpg)
+![Last](last-step.jpg)
