@@ -1,6 +1,6 @@
 # Site config permission check
 
-As a content studio user and as a developer, I should not be able to modify site configurations through the content API if I do not have the role "cms.admin".
+As a content studio user and as a developer, I should not be able to modify site configurations through the content API if I do not have one of the following roles: "cms.admin" or “system.admin”.
 Warning: This permission check will not be executed if the Node API is accessed directly.
 
 ## Estimate
