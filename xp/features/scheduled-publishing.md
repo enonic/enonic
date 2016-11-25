@@ -15,9 +15,11 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
 * Contents have an attribute "publish.until"
 * Content Studio: Publish Wizard: I can now Schedule a publish. This schedule publish will modify the attributes , save and then publish for the content and required contents.
 * The following ContentCommands, on master branch, return by default only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.until is null OR publish.until > now())
-** 
-* The following JS Content library functions, on master branch, return by default only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.until is null OR publish.until > now())
-** 
+** TBD
+
+* The following JS Content library functions, on master branch, return only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.until is null OR publish.until > now())
+** TBD
+
 
 ## Acceptance Criteria
 
