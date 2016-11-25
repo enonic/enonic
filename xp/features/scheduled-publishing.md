@@ -8,7 +8,7 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
 
 ## Estimate
 
-2 weeks
+2/3 weeks
 
 ## Requirements
 
