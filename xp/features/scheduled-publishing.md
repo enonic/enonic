@@ -17,7 +17,7 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
 * Content Studio: Content Tree & Toolbar: I can now see the substates "Pending"(Orange)/"Expired"(Red) of contents pending_publish: [Screenshot](http://wiki.enonic.com/download/attachments/19497405/Screen+Shot+2016-11-01+at+16.25.38.png?version=1&modificationDate=1478013959116)
 * Content API
     * Retrieval functions return, by default and on master branch, only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.until is null OR publish.until > now())
-        * getById, getNearestSite, getByIds, getByPath, getPermissionsById, getByPaths, findByParent, findIdsByParent, find, getBinary, getBinaryKey, contentExists
+        * Retrieval functions: getById, getNearestSite, getByIds, getByPath, getPermissionsById, getByPaths, findByParent, findIdsByParent, find, getBinary, getBinaryKey, contentExists
     * Function "create" should handle publish info
     * Function "publish" should handle schedule publishing
     * Function "duplication" should reset publish info for duplicated content
