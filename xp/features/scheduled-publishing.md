@@ -19,7 +19,7 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
   * TBD
 
 * The following JS Content library functions, on master branch, return only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.until is null OR publish.until > now())
-  * TBD
+  * TBD. For example: Should a contentLib.delete on a expired content work? Then it means that we get null on get() but that delete() deletes something.
 
 
 ## Acceptance Criteria
