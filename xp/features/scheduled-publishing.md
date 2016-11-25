@@ -19,11 +19,11 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
   * TBD
 
 * The following JS Content library functions, on master branch, return only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.until is null OR publish.until > now())
-  * get, getAttachments, getAttachmentStream, getChildren, getPermissions, getSite, getSiteConfig
-  * !!!! What about the other ones: create, createMedia, delete, modify, move, publish, query, setPermissions, unpublish !!!!
-   * For example: Should a contentLib.delete on a expired content work? I guess not. Otherwise it means that we get null on get() but that delete() deletes something.
-   * Example2: Should I be able to create a content on master with the publish information set?
-   * Example3: Should we adapt the publish functions
+    * get, getAttachments, getAttachmentStream, getChildren, getPermissions, getSite, getSiteConfig
+    * !!!! What about the other ones: create, createMedia, delete, modify, move, publish, query, setPermissions, unpublish !!!!
+        * For example: Should a contentLib.delete on a expired content work? I guess not. Otherwise it means that we get null on get() but that delete() deletes something.
+        * Example2: Should I be able to create a content on master with the publish information set?
+       * Example3: Should we adapt the publish functions
 
 
 ## Acceptance Criteria
