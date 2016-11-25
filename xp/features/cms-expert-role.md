@@ -4,11 +4,12 @@ As a content studio user, I should not be able to see the button "Source code" o
 
 ## Estimate
 
-<=1 day
+1 day
 
 ## Requirements
 
 * In Content Studio, the button "Source code" of HTML areas and Text areas is hidden if the user does not have one of the following roles:  “cms.expert” or “cms.admin” “system.admin”.
+* A role "cms.expert" is created on system repository initialization
 
 ## Acceptance Criteria
 
