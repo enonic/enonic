@@ -16,14 +16,16 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
 * Content Studio: Publish Wizard: I can now Schedule a publish. This schedule publish will, for the content and required contents, modify the attributes "publish.from" and "publish.until", save and then publish. [Screenshot1](http://wiki.enonic.com/download/attachments/19497405/Screen+Shot+2016-11-01+at+16.58.23.png?version=1&modificationDate=1478016094099)[Screenshot2](http://wiki.enonic.com/download/attachments/19497405/Screen+Shot+2016-11-01+at+16.58.17.png?version=1&modificationDate=1478016125072)
 * Content Studio: Content Tree & Toolbar: I can now see the substates "Pending"(Orange)/"Expired"(Red) of contents pending_publish: [Screenshot](http://wiki.enonic.com/download/attachments/19497405/Screen+Shot+2016-11-01+at+16.25.38.png?version=1&modificationDate=1478013959116)
 * The following ContentService functions, on master branch, return by default only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.until is null OR publish.until > now())
-    * TBD
+    * getById, getNearestSite, getByIds, getByPath, getPermissionsById, getByPaths, findByParent, findIdsByParent, find, getBinary, getBinaryKey, contentExists
+    * TBD: !!! What about the other ones: create, delete, deleteWithoutFetch, push, publish, resolvePublishDependencies, duplicate, move, setChildOrder, reorderChildren, applyPermissions, compare, getVersions, getActiveVersions, setActiveContentVersion, reprocess, unpublishContent
+        * Should they work on expired content ?
 
 * The following JS Content library functions, on master branch, return only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.until is null OR publish.until > now())
     * get, getAttachments, getAttachmentStream, getChildren, getPermissions, getSite, getSiteConfig
-    * !!!! What about the other ones: create, createMedia, delete, modify, move, publish, query, setPermissions, unpublish !!!!
-        * For example: Should a contentLib.delete on a expired content work? I guess not. Otherwise it means that we get null on get() but that delete() deletes something.
-        * Example2: Should I be able to create a content on master with the publish information set?
-       * Example3: Should we adapt the publish functions
+    * TBD: !!! What about the other ones: create, createMedia, delete, modify, move, publish, query, setPermissions, unpublish !!!!
+        * Should they work on expired content ? 
+        * Should we adapt publish to perform scheduled publish from JS?
+        * Should we adapt create to create content directly with publish info?        
 
 
 ## Acceptance Criteria
