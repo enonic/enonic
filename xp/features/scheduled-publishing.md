@@ -19,10 +19,12 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
     * Retrieval functions return, by default and on master branch, only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.until is null OR publish.until > now())
         * getById, getNearestSite, getByIds, getByPath, getPermissionsById, getByPaths, findByParent, findIdsByParent, find, getBinary, getBinaryKey, contentExists
     * __Question1: What about the other ones: create, delete, deleteWithoutFetch, push, publish, resolvePublishDependencies, duplicate, move, setChildOrder, reorderChildren, applyPermissions, compare, getVersions, getActiveVersions, setActiveContentVersion, reprocess, unpublishContent__
-        * Should they work on expired content ? I suppose that they should be adapted too.
+        * Should delete on an expired content work ?
 * Content JS Library
+    * Adapt get/getChildren/getSite/query to return publish info
+    * Adapt modify to be able to modify publish info
     * __Question2: Should we adapt publish to perform scheduled publish from JS?__
-    * __Question3: Should we adapt create/modify/... to be able to set publish info?__    
+    
 
 
 ## Acceptance Criteria
