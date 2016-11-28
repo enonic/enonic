@@ -7,7 +7,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 ## Q4-2016
 
-* [Scheduled Publishing](features/scheduled-publishing.md) :rocket:
+* [Scheduled Publishing](features/timebased-publishing.md) :rocket:
 * [Repo Service API](features/repo-service-api.md)
 * [Configuration management API](features/configuration-management-api.md) :rocket:
 * [Role for adding applications to site](features/site-configs-permission-check.md)
