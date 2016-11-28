@@ -1,7 +1,7 @@
 # Scheduled publishing
 
-* As a content studio, I should be able to schedule publish a content starting from a time until an expired time.
-* As a content studio, I should be able to see that a content is pending_published or expired in the content tree view and toolbar status.
+* As a content studio user, I should be able to schedule publish a content starting from a time until an expired time.
+* As a content studio user, I should be able to see that a content is pending_published or expired in the content tree view and toolbar status.
 * As a developer, using content api on the master branch, I should retrieve by default only content non pending_published/expired.
 
 http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+story
