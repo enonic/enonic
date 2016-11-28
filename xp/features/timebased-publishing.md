@@ -2,6 +2,7 @@
 
 * As a content studio user, I should be able to publish a content that will be considered published from a defined time until an defined expired time.
 * As a content studio user, I should be able to see that a content is pending_published or expired in the content tree view and toolbar status.
+* As a content studio user, I should be able to edit the attributes "publish.from" and "publish.to" of a content from the Edit wizard page.
 * As a developer, using content api on the master branch, I should retrieve by default only content non pending_published/expired.
 
 http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+story
