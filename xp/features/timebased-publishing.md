@@ -27,7 +27,7 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
 * Content JS Library
     * Adapt get/getChildren/getSite/query to return publish info
     * Adapt modify to be able to modify publish info
-    * __Question2: Should we adapt publish to perform scheduled publish from JS?__
+    * Adapt publish to perform time-based publish.
 
 
 ## Acceptance Criteria
