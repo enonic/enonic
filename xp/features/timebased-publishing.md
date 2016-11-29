@@ -30,7 +30,7 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
     * Adapt modify to be able to modify publish info
     * Adapt publish to perform time-based publish.
 * Context JS Library
-    * Adapt run and get to handle new attribute "filterScheduledPublished" (Name TBD)
+    * Adapt run and get to handle new attribute "settings.filterScheduledPublished" (Name TBD)
 
 
 ## Acceptance Criteria
