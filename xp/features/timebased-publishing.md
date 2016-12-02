@@ -14,6 +14,7 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
 ## Requirements
 
 * Contents have an attribute "publish.to". It should be included in the XML export/import.
+* Content Studio: Edit wizard page: There are two datetime picker fields in the settings part.
 * Content Studio: Publish Wizard: I can now "schedule" a publish. This "scheduled" publish will, for the content and required contents, modify the attributes "publish.from" and "publish.to", save and then publish. A validation publish-from < publish-to should be performed. [Screenshot1](http://wiki.enonic.com/download/attachments/19497405/Screen+Shot+2016-11-01+at+16.58.23.png?version=1&modificationDate=1478016094099)[Screenshot2](http://wiki.enonic.com/download/attachments/19497405/Screen+Shot+2016-11-01+at+16.58.17.png?version=1&modificationDate=1478016125072)
 * Content Studio: Content Tree & Toolbar: I can now see the substates "Pending"(Orange)/"Expired"(Red) of pending_delete/expired contents: [Screenshot](http://wiki.enonic.com/download/attachments/19497405/Screen+Shot+2016-11-01+at+16.25.38.png?version=1&modificationDate=1478013959116)
 * Content API
