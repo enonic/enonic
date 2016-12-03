@@ -20,8 +20,9 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
 * Content API
     * Retrieval functions return, by default and on master branch, only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.to is null OR publish.to > now())
         * Retrieval functions: getById, getNearestSite, getByIds, getByPath, getPermissionsById, getByPaths, findByParent, findIdsByParent, find, getBinary, getBinaryKey, contentExists
-    * Function "create" should handle publish info
-    * Function "publish" should handle "scheduled" publishing. A validation publish-from < publish-to should be performed.
+    * Function "create" should handle publish info. A validation publish-from < publish-to should be performed.
+    * Function "modify" should handle publish info. A validation publish-from < publish-to should be performed.
+    * Function "publish" should handle "scheduled" publishing. A validation publish-from < publish-to should be performed. The publish info values will be set for all content where values have not already been configured.
     * Function "duplication" should reset publish info for duplicated content
     * Function "unpublishContent" will leave publish info as it is already the case
 * Content JS Library
