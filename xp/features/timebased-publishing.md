@@ -24,8 +24,6 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
     * Function "publish" should handle "scheduled" publishing. A validation publish-from < publish-to should be performed.
     * Function "duplication" should reset publish info for duplicated content
     * Function "unpublishContent" will leave publish info as it is already the case
-    * __Question1: What about the other ones: delete, deleteWithoutFetch, resolvePublishDependencies, move, setChildOrder, reorderChildren, applyPermissions, compare, getVersions, getActiveVersions, setActiveContentVersion, reprocess__
-        * Example: Should delete/deleteWithoutFetch on an expired content work ?
 * Content JS Library
     * Adapt get/getChildren/getSite/query to return publish info
     * Adapt modify to be able to modify publish info
