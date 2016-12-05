@@ -24,7 +24,7 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
     * Function "modify" should handle publish info. A validation publish-from < publish-to should be performed.
     * Function "publish" should handle "scheduled" publishing. A validation publish-from < publish-to should be performed. The publish info values will be set for all content where values have not already been configured.
     * Function "duplication" should reset publish info for duplicated content
-    * Function "unpublishContent" will remove the publish info. __Question: Is that correct?__
+    * Function "unpublishContent" should leave the publish info on contents.
 * Content JS Library
     * Adapt get/getChildren/getSite/query to return publish info
     * Adapt modify to be able to modify publish info
