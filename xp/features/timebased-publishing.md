@@ -18,7 +18,7 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
 * Content Studio: Publish Wizard: We can now "schedule" a publish. This "scheduled" publish will set the dates for all contents where values have not already been configured and then publish them. A validation publish-from < publish-to should be performed. [Screenshot1](http://wiki.enonic.com/download/attachments/19497405/Screen+Shot+2016-11-01+at+16.58.23.png?version=1&modificationDate=1478016094099)[Screenshot2](http://wiki.enonic.com/download/attachments/19497405/Screen+Shot+2016-11-01+at+16.58.17.png?version=1&modificationDate=1478016125072)
 * Content Studio: Content Tree & Toolbar: I can now see the substates "Pending"(Orange)/"Expired"(Red) of pending_delete/expired contents: [Screenshot](http://wiki.enonic.com/download/attachments/19497405/Screen+Shot+2016-11-01+at+16.25.38.png?version=1&modificationDate=1478013959116)
 * Content API
-    * Retrieval functions return, by default and on master branch, only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.to is null OR publish.to > now())
+    * Retrieval functions return, by default and on master branch, only the contents currently published (publish.from is NULL OR public.from  <= now()) AND (publish.to is null OR publish.to > now()). This can be overridden by setting the attribute 'includeScheduledPublished' on the context
         * Retrieval functions: getById, getNearestSite, getByIds, getByPath, getPermissionsById, getByPaths, findByParent, findIdsByParent, find, getBinary, getBinaryKey, contentExists
     * Function "create" should handle publish info. A validation publish-from < publish-to should be performed.
     * Function "modify" should handle publish info. A validation publish-from < publish-to should be performed.
@@ -30,7 +30,7 @@ http://wiki.enonic.com/display/product/Enonic+XP+-+Time-based+publishing+user+st
     * Adapt modify to be able to modify publish info
     * Adapt publish to perform time-based publish.
 * Context JS Library
-    * Adapt run and get to be able to set attributes
+    * Adapt run to be able to set attributes
 
 
 ## Acceptance Criteria
