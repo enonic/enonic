@@ -13,8 +13,8 @@ of this user-story.
 ## Requirements
 
 * Tasks should be implemented in Javascript.
-* Tasks should be deployed inside an application (/tasks/<name>/<name>.js).
-* Tasks should have a display-name and optional config schema (/tasks/<name>/<name>.xml).
+* Tasks should be deployed inside an application (/tasks/{name}/{name}.js).
+* Tasks should have a display-name and optional config schema (/tasks/{name}/{name}.xml).
 * Tasks can be executed using TaskService with parameters.
 * Tasks can be executed using the lib-task.
 * Tasks should report last execution - time and status.
