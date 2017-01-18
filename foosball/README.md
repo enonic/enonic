@@ -38,6 +38,7 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
 
 * Home page 
  + Marketing the "Foosball" service, rules, etc
+ + Add to home screen :soccer:
 * Create/edit players
 * Create/edit teams
 * Support organizations (scope for players and teams)
