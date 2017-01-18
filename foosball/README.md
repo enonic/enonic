@@ -74,12 +74,4 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
 * Invite players
  + Send notifications to players invited (select people or to org) :rocket:
 
-## Pages
-* Team list / ranking
-* Player list / ranking
-* Team profile
-* Player profile
-* Player profile
-* Game recording
-
 
