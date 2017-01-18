@@ -35,3 +35,19 @@ This document describes the Foosball app features. Items can be linked to issues
 * Player profile
 * Player profile
 * Game recording
+
+
+## Blog post requirements
+* Both developers and non-techies must be able to relate to the concept
+* Should have an interesting data model, with potentially big volumes
+* Needs to provide a relevant offline experience
+* Support storing of personal settings or data
+* Login support with popular ID providers such as Google and Facebook
+* Support User generated content
+* Provide transactions of some kind
+* Relevant use of push notifications
+* Nice URL handling and deep linking support
+* Include public facing content, for easy access and search robot indexing
+* Support localization
+* Re-useable beyond Enonic, potentially as a cloud service
+* Interaction with physical devices / IoT if possible
