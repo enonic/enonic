@@ -7,7 +7,7 @@ This document describes the Foosball app features. Items can be linked to issues
 The goal for the Foosball app is to create a full-blown Progressive Web App from scratch. 
 We would like to explore every relevant aspect of PWA from front-end to back-end.
 
-:rocket: - PWA feature
+:soccer: - PWA feature
 
 ## Blog post requirements
 * Both developers and non-techies must be able to relate to the concept
@@ -46,8 +46,8 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
  + Enter goals
  + Pause/Undo/Redo
  + Effects (music / sound on goal strikes)?
- + Offline mode :rocket:
- + Sync game data when back online :rocket: 
+ + Offline mode :soccer:
+ + Sync game data when back online :soccer: 
 * Game summary page
 * Player profile
  + Linked to a user
@@ -58,7 +58,7 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
  + Generate seeds based on ranking
 * Organization page summary
  + Show ranking changes, latest games, etc
-* Notifications for games played from your org :rocket:
+* Notifications for games played from your org :soccer:
 * Leaderboard / ranking page
  + Elo ranking system like in Foos 1.0, or similar
 * Organization Administrator page 
@@ -72,6 +72,6 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
 * Badges
  + Achievements, e.g. 10 wins in a row
 * Invite players
- + Send notifications to players invited (select people or to org) :rocket:
+ + Send notifications to players invited (select people or to org) :soccer:
 
 
