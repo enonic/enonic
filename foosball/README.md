@@ -2,6 +2,11 @@
 
 This document describes the Foosball app features. Items can be linked to issues or feature documents. Items can also be annotated with the following icons:
 
+## Goal
+
+The goal for the Foosball app is to create a full-blown Progressive Web App from scratch. 
+We would like to explore every relevant aspect of PWA from front-end to back-end.
+
 ##Features
 * Record a game (PWA - offline mode, sync when back online)
  + Select by team/player
