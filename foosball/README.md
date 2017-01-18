@@ -6,32 +6,47 @@ This document describes the Foosball app features. Items can be linked to issues
 The goal for the Foosball app is to create a full-blown Progressive Web App from scratch. 
 We would like to explore every relevant aspect of PWA from front-end to back-end.
 
+:rocket: - PWA feature
+
 ##Features
-* Home page (marketing the "Foosball" service, rules, etc etc)
-* Record a game (PWA - offline mode, sync when back online)
+* Home page 
+ + Marketing the "Foosball" service, rules, etc
+* Create/edit players
+* Create/edit teams
+* Support organizations (scope for players and teams)
+* Record a game
  + Select by team/player
  + Select players (Invites?)
  + Enter goals
  + Pause/Undo/Redo
  + Effects (music / sound on goal strikes)?
-* Create/edit players
-* Create/edit teams
-* Support organizations (scope)
+ + Offline mode :rocket:
+ + Sync game data when back online :rocket: 
 * Game summary page
-* Player profile (linked to a user)
+* Player profile
+ + Linked to a user
 * Team profile
-* Rule page
-* Create tournament (cup/league)
- + select players and create cup (generate seeds based on ranking)
-* Organization page summary (ranking changes, latest games, etc)
-* Notifications for games in your org (PWA) 
+* Create tournaments
+ + Cup, league, etc
+ + Select players and create cup
+ + Generate seeds based on ranking
+* Organization page summary
+ + Show ranking changes, latest games, etc
+* Notifications for games played from your org :rocket:
 * Leaderboard / ranking page
-* Organization Administrator page (create/delete players, games)
+ + Elo ranking system like in Foos 1.0, or similar
+* Organization Administrator page 
+ + Possibility for create/delete players, teams, games
 * Live games and tournament
-* Comments on games (during game and after)
+ + Page that shows game being played
+ + Use WebSockets to update game details
+* Comments on games
+ + Both for during game (like a chat) and after (like a blog comments)
 * Share (game) on social media
-* Badges (achievements, e.g. 10 wins in a row)
-* Invite players (send notifications) (select people or to org)
+* Badges
+ + Achievements, e.g. 10 wins in a row
+* Invite players
+ + Send notifications to players invited (select people or to org) :rocket:
 
 ## Pages
 * Team list / ranking
