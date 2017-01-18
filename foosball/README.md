@@ -4,11 +4,11 @@ This document describes the Foosball app features. Items can be linked to issues
 
 ##Features
 * Record a game (PWA - offline mode, sync when back online)
-** Select by team/player
-** Select players (Invites?)
-** Enter goals
-** Pause/Undo/Redo
-** Effects (music / sound on goal strikes)?
+++ Select by team/player
++ Select players (Invites?)
++ Enter goals
++ Pause/Undo/Redo
++ Effects (music / sound on goal strikes)?
 * Create/edit players
 * Create/edit teams
 * Support organizations (scope)
@@ -17,7 +17,7 @@ This document describes the Foosball app features. Items can be linked to issues
 * Team profile
 * Rule page
 * Create tournament (cup/league)
-** select players and create cup (generate seeds based on ranking)
++ select players and create cup (generate seeds based on ranking)
 * Home page summary (ranking changes, latest games, etc)
 * Notifications for games in your org (PWA) 
 * Leaderboard / ranking page
@@ -29,9 +29,9 @@ This document describes the Foosball app features. Items can be linked to issues
 * Invite players (send notifications) (select people or to org)
 
 ## Pages
-** Team list / ranking
-** Player list / ranking
-** Team profile
-** Player profile
-** Player profile
-** Game recording
+* Team list / ranking
+* Player list / ranking
+* Team profile
+* Player profile
+* Player profile
+* Game recording
