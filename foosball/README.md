@@ -7,8 +7,6 @@ This document describes the Foosball app features. Items can be linked to issues
 The goal for the Foosball app is to create a full-blown Progressive Web App from scratch. 
 We would like to explore every relevant aspect of PWA from front-end to back-end.
 
-:soccer: - PWA feature
-
 ## Blog post requirements
 * Both developers and non-techies must be able to relate to the concept
 * Should have an interesting data model, with potentially big volumes
@@ -35,6 +33,9 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
 * Challenge other users for a new game
 
 ## Features
+
+:soccer: - PWA feature
+
 * Home page 
  + Marketing the "Foosball" service, rules, etc
 * Create/edit players
