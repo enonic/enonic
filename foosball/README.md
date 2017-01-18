@@ -8,6 +8,7 @@ The goal for the Foosball app is to create a full-blown Progressive Web App from
 We would like to explore every relevant aspect of PWA from front-end to back-end.
 
 ##Features
+* Home page (marketing the "Foosball" service, rules, etc etc)
 * Record a game (PWA - offline mode, sync when back online)
  + Select by team/player
  + Select players (Invites?)
@@ -23,7 +24,7 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
 * Rule page
 * Create tournament (cup/league)
  + select players and create cup (generate seeds based on ranking)
-* Home page summary (ranking changes, latest games, etc)
+* Organization page summary (ranking changes, latest games, etc)
 * Notifications for games in your org (PWA) 
 * Leaderboard / ranking page
 * Organization Administrator page (create/delete players, games)
