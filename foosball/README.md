@@ -56,3 +56,13 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
 * Support localization
 * Re-useable beyond Enonic, potentially as a cloud service
 * Interaction with physical devices / IoT if possible
+
+## Blog post features 
+* Public pages for marketing the "Foosball" service, rules, etc etc
+* Login to register new players
+* Teams, players and games would be the core datamodel - with a growing data-set
+* Notify players of upcoming games, or changes to their ranking
+* Offline support for playing and recording games
+* Deep linking into content, player statistics and game info
+* User comments on games played
+* Challenge other users for a new game
