@@ -75,5 +75,7 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
  + Achievements, e.g. 10 wins in a row
 * Invite players
  + Send notifications to players invited (select people or to org) :soccer:
+* Sensors (Connected by bluetooth) to record the score
+* Camera (Goal replays)
 
 
