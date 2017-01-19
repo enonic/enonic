@@ -81,6 +81,7 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
 * Blog post
 * Pictures for game summary
 * Different type of office games/sport (chess, foos, pingpong, football, ...)
+* Localization
 
 # Technical choices
 * GraphQL
