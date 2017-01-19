@@ -1,4 +1,4 @@
-# Foosball app
+# Office League
 
 This document describes the Foosball app features. Items can be linked to issues or feature documents.
 
@@ -77,5 +77,26 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
  + Send notifications to players invited (select people or to org) :soccer:
 * Sensors (Connected by bluetooth) to record the score
 * Camera (Goal replays)
+* Ball recognition ? (V3)
+* Blog post
+* Pictures for game summary
+* Different type of office games/sport (chess, foos, pingpong, football, ...)
+
+
+* Store as possible as node (not content)
+
+
+# Content types
+Blog post
+Landing page
+
+# Data (node)
+Organization=League
+Player
+Team
+Game
+Comment
+Sport/GameType
+
 
 
