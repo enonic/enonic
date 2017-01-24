@@ -78,10 +78,14 @@ We would like to explore every relevant aspect of PWA from front-end to back-end
 * Sensors (Connected by bluetooth) to record the score
 * Camera (Goal replays)
 * Ball recognition ? (V3)
-* Blog post
+* Blog posts
 * Pictures for game summary
 * Different type of office games/sport (chess, foos, pingpong, football, ...)
 * Localization
+
+# Features to validate
+* Swipe on goals
+* Newsfeed (Last games of the leagues) (Will ease up the notifications also) + Tweet/comment from profile
 
 # Technical choices
 * GraphQL
