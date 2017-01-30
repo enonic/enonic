@@ -1,3 +1,7 @@
+# Blog post
+
+[Original blog post](http://webagility.com/posts/building-a-progressive-web-app-part-1-background-and-back-end)
+
 ## Blog post requirements
 * Both developers and non-techies must be able to relate to the concept
 * Should have an interesting data model, with potentially big volumes

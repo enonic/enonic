@@ -1,4 +1,10 @@
-# Features & Requirements
+# Features 
+
+
+## Features
+ 
+ 
+### Core
 
 :soccer: - PWA feature
 
@@ -41,16 +47,17 @@
  + Achievements, e.g. 10 wins in a row
 * Invite players
  + Send notifications to players invited (select people or to org) :soccer:
-* Sensors (Connected by bluetooth) to record the score
-* Camera (Goal replays)
-* Ball recognition ? (V3)
 * Blog posts
 * Pictures for game summary
 * Different type of office games/sport (chess, foos, pingpong, football, ...)
 * Localization
 * Newsfeed (Last games of the leagues) (Will ease up the notifications also) + Tweet/comment from profile
 
+### Version 2 & 3
+
+* Sensors (Connected by bluetooth) to record the score
+* Camera (Goal replays)
 
 # Technical choices
-* GraphQL
-* Store as possible as node (not content)
+* The data should be retrieve from the back-end using GraphQL
+* The data (except the landing pages of the blog posts) should be stored as node directly
