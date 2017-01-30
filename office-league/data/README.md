@@ -1,14 +1,24 @@
 # Data
 
-
 ## Content types
-Blog post
-Landing page
+* Landing page
 
 ## Data (node)
-Organization=League
-Player
-Team
-Game
-Comment
-Sport/GameType
+* League
+  * Name: String
+  * Sport: String
+  * Image: Binary
+  * Config: PropertySet
+* Player
+  * Name
+  * Image: Binary
+  * 
+* Team
+* Game
+* Comment
+  * Author: NodeId
+  * Text: String
+  * 
+* Sport
+  * Name
+  * Config form

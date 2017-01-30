@@ -53,11 +53,12 @@
 * Localization
 * Newsfeed (Last games of the leagues) (Will ease up the notifications also) + Tweet/comment from profile
 
+
 ### Version 2 & 3
 
 * Sensors (Connected by bluetooth) to record the score
 * Camera (Goal replays)
 
-# Technical choices
+## Technical choices
 * The data should be retrieve from the back-end using GraphQL
 * The data (except the landing pages of the blog posts) should be stored as node directly
