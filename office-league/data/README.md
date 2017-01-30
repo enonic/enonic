@@ -10,7 +10,7 @@
   * Image: Binary
   * Config: PropertySet
   * Stats
-    * Teams 
+    * // Additional generated stats
       
 * Player
   * Name: String
@@ -39,7 +39,18 @@
   
 ## Data structure
 
+/leagues
+/leagues/enonic-foos
 /leagues/enonic-foos/games
-/leagues/enonic-foos/comments
+/leagues/enonic-foos/games/game1
+/leagues/enonic-foos/games/game1/comments
+/leagues/enonic-foos/games/game1/comments/comment1
+/leagues/enonic-foos/games/game2
+/leagues/enonic-foos/games/game2/comments
+/teams
+/teams/elastic
+/players
+/players/aro
+
 
 
