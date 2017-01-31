@@ -25,18 +25,18 @@
 * Player profile
   * Linked to a user
 * Team profile
-* Organization page summary
+* League page summary
   * Show ranking changes, latest games, etc
-* Notifications for games played from your org :soccer:
+* Notifications for games played from your league :soccer:
 * Leaderboard / ranking page
   * Elo ranking system like in Foos 1.0, or similar
-* Organization Administrator page 
+* Administration
   * Possibility for create/delete players, teams, games
-* Live games and tournament
+* Live games and tournaments
   * Page that shows game being played
   * Use WebSockets to update game details
 * Comments on games
-  * Both for during game (like a chat) and after (like a blog comments)
+  * Both for during game (like a chat) and after (like a blog comment)
 * Join a league
   * For a player, this can be done from the league presentation (ex: a Join button) or through their profile.
   * For a team, it is dynamically associated if the 2 players are in the league
