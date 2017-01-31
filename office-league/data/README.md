@@ -14,14 +14,16 @@
       
 * Player
   * Name: String
+  * Nickname: String
   * Image: Binary
   * Nationality: String //Enum
-  * Handed: String //Enum: Right, left, ambidextrous
+  * Handedness: String //Enum: Right, left, ambidextrous
   * Description: String
   * // Additional generated stats
 * Team
   * Name: String
   * Image: Binary
+  * Description
   * Players: PlayerId[]
 * Game
   * Time: Date/Time  
@@ -37,7 +39,7 @@
   * Author: PlayerId //Opt. Nil if generated
   * Text: String
   * Media: Binary
-  
+  * Likes: PlayerId[]
   
   
 ## Data structure
