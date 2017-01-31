@@ -17,7 +17,7 @@
 * Record a game
   * Select by team/player
   * Select players (Invites?)
-  * Enter goals
+  * Enter goals (Self goals?)
   * Offline mode :soccer:
   * Sync game data when back online :soccer: 
 * Game summary page
@@ -57,11 +57,12 @@
 
 ### Version 3
 * Localization
+* Blog posts/rticles
 
 ### Version 4
 * Sensors (Connected by bluetooth) to record the score
 * Camera (Goal replays)
 
-## Technical choices
+## Technical requirements
 * The data should be retrieve from the back-end using GraphQL
-* The data (except the landing pages of the blog posts) should be stored as node directly
+* The data (except the landing pages) should be stored as node directly
