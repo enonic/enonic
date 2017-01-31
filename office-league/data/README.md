@@ -13,12 +13,17 @@
     * PlayerId
     * Stats
       * Rating
+      * Ranking ???
+      * PreviousRating ???
+      * PreviousRanking ???
   * Teams
     * TeamId
     * Stats
       * Rating
-      
-      
+      * Ranking ???
+      * PreviousRating ???
+      * PreviousRanking ???
+
 * Player
   * Name: String
   * Nickname: String
@@ -26,7 +31,6 @@
   * Nationality: String //Enum
   * Handedness: String //Enum: Right, left, ambidextrous
   * Description: String
-  * // Additional generated stats
 * Team
   * Name: String
   * Image: Binary
