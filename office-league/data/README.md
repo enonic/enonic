@@ -15,6 +15,9 @@
 * Player
   * Name: String
   * Image: Binary
+  * Nationality: String //Enum
+  * Handed: String //Enum: Right, left, ambidextrous
+  * Description: String
   * // Additional generated stats
 * Team
   * Name: String
