@@ -13,7 +13,12 @@
   * Browse league
   * Presentation/Marketing of the product
 * Leagues list (for a sport)
-* League creation
+* League presentation
+  * Players list 
+  * Teams list 
+  * Games list 
+  * Rules
+* League creation/edit (dialog)
 * Players list (for a League)
   * Ranked list of players
 * Teams list (for a League)
@@ -24,9 +29,10 @@
   * Games
   * Statistics
   * Teams
+    * Create a new team
   * Leagues
   * Badges (v2)
-* Player creation
+* Player creation/edit (dialog)
 * Team profile
   * Picture
   * Basic data: Name, Left/Right handed, (Configurable attributes?), ...
@@ -35,7 +41,7 @@
   * Statistics
   * Leagues
   * Badges (v2)
-* Team creation
+* Team creation/edit (dialog)
 * Newsfeed (v2)
   * Displayed instead of the home page if the user is logged in
   
@@ -49,4 +55,10 @@
 Page | Path
 ---- | ----
 Home or Newsfeed | /
-Foos leagues | /
+Foos leagues | /leagues?sport=foos
+Table tennis leagues | /leagues?sport=tabletennis
+Enonic Foos league | /leagues/enonic-foos
+Enonic Foos league teams | /leagues/enonic-foos/teams
+Enonic Foos league players | /leagues/enonic-foos/players
+ARO profile | /players/aro
+Elastic backend profile | /teams/elastic

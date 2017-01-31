@@ -20,6 +20,7 @@
   * Enter goals (Self goals?)
   * Offline mode :soccer:
   * Sync game data when back online :soccer: 
+  * Team creation if team does not exist
 * Game summary page
 * Player profile
   * Linked to a user
@@ -36,6 +37,11 @@
   * Use WebSockets to update game details
 * Comments on games
   * Both for during game (like a chat) and after (like a blog comments)
+* Join a league
+  * For a player, this can be done from the league presentation (ex: a Join button) or through their profile.
+  * For a team, it is dynamically associated if the 2 players are in the league
+    * Can happen when a player joins/leave a league, a team is created/updated/deleted.
+  
 
 ### Version 2
 * Newsfeed (Last games of the leagues) (Will ease up the notifications also)  * Tweet/comment from profile
