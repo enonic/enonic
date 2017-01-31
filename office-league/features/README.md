@@ -24,10 +24,6 @@
 * Player profile
   * Linked to a user
 * Team profile
-* Create tournaments
-  * Cup, league, etc
-  * Select players and create cup
-  * Generate seeds based on ranking
 * Organization page summary
   * Show ranking changes, latest games, etc
 * Notifications for games played from your org :soccer:
@@ -54,6 +50,10 @@
 * Generated comments
 * Invite players
   * Send notifications to players invited (select people or to org) :soccer:
+* Create tournaments
+  * Cup, league, etc
+  * Select players and create cup
+  * Generate seeds based on ranking
 
 ### Version 3
 * Localization
