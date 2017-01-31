@@ -9,8 +9,15 @@
   * Sport: String //Enum: "foos", "tabletennis"
   * Image: Binary
   * Config: PropertySet
-  * Stats
-    * // Additional generated stats
+  * Players
+    * PlayerId
+    * Stats
+      * Rating
+  * Teams
+    * TeamId
+    * Stats
+      * Rating
+      
       
 * Player
   * Name: String

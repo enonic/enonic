@@ -28,7 +28,7 @@
 * League page summary
   * Show ranking changes, latest games, etc
 * Notifications for games played from your league :soccer:
-* Leaderboard / ranking page
+* Leaderboard / ranking page (by league)
   * Elo ranking system like in Foos 1.0, or similar
 * Administration
   * Possibility for create/delete players, teams, games
