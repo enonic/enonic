@@ -15,7 +15,7 @@
 * Player
   * Name: String
   * Image: Binary
-  * 
+  * // Additional generated stats
 * Team
   * Name: String
   * Image: Binary
@@ -39,18 +39,18 @@
   
 ## Data structure
 
-/leagues
-/leagues/enonic-foos
-/leagues/enonic-foos/games
-/leagues/enonic-foos/games/game1
-/leagues/enonic-foos/games/game1/comments
-/leagues/enonic-foos/games/game1/comments/comment1
-/leagues/enonic-foos/games/game2
-/leagues/enonic-foos/games/game2/comments
-/teams
-/teams/elastic
-/players
-/players/aro
+* /leagues
+* /leagues/enonic-foos
+* /leagues/enonic-foos/games
+* /leagues/enonic-foos/games/game1
+* /leagues/enonic-foos/games/game1/comments
+* /leagues/enonic-foos/games/game1/comments/comment1
+* /leagues/enonic-foos/games/game2
+* /leagues/enonic-foos/games/game2/comments
+* /teams
+* /teams/elastic
+* /players
+* /players/aro
 
 
 
