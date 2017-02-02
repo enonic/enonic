@@ -39,7 +39,7 @@
   * Players: PlayerId[]
 * Game
   * Time: Date/Time  
-  * Points
+  * Goals
     * PlayerId: PlayerId
     * Time: Int
     * Against: Boolean 
