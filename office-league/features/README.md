@@ -63,6 +63,7 @@
 
 ### Version 3
 * Blog posts/rticles
+* Multiple languages
 
 ### Version 4
 * Sensors (Connected by bluetooth) to record the score
