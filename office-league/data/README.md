@@ -10,7 +10,7 @@
   * Image: Binary
   * Description: String
   * Config: PropertySet
-  * Players
+  * PlayersStats
     * PlayerId
     * Stats
       * Rating
@@ -38,6 +38,7 @@
   * Description
   * Players: PlayerId[]
 * Game
+  * LeagueId: 
   * Time: Date/Time  
   * Goals
     * PlayerId: PlayerId
