@@ -9,10 +9,14 @@
     * Profile
     * Home/Newsfeed (v2)
 * Home page
-  * Log-in
-  * Browse league
-  * Presentation/Marketing of the product
-* Leagues list (for a sport)
+  * Sign up / Log-in
+  * Continue without login -> Leagues list
+* Leagues list
+  * Displays list of leagues.
+  * Sort
+    * First, the leagues you are a part of 
+    * Leagues by modification date 
+  * Search field (V2)
 * League presentation
   * Players list 
   * Teams list 
