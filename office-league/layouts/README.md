@@ -31,6 +31,7 @@
   * Teams
     * Create a new team
   * Leagues
+  * Edit button
   * Badges (v2)
 * Player creation/edit (dialog)
 * Team profile
@@ -40,6 +41,7 @@
   * Games
   * Statistics
   * Leagues
+  * Edit button
   * Badges (v2)
 * Team creation/edit (dialog)
 * Newsfeed (v2)
