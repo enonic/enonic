@@ -55,10 +55,10 @@
 Page | Path
 ---- | ----
 Home or Newsfeed | /
-Foos leagues | /leagues?sport=foos
-Table tennis leagues | /leagues?sport=tabletennis
-Enonic Foos league | /leagues/enonic-foos
-Enonic Foos league teams | /leagues/enonic-foos/teams
-Enonic Foos league players | /leagues/enonic-foos/players
+Foos leagues | /leagues/foos
+Table tennis leagues | /leagues/tabletennis
+Enonic Foos league | /leagues/foos/enonic-foos
+Enonic Foos league teams | /leagues/foos/enonic-foos/teams
+Enonic Foos league players | /leagues/foos/enonic-foos/players
 ARO profile | /players/aro
 Elastic backend profile | /teams/elastic
