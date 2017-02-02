@@ -9,7 +9,7 @@
 :soccer: - PWA feature
 
 * Home page 
-  * Marketing the "Foosball" service, rules, etc
+  * Presentation of the foosball app
   * Add to home screen :soccer:
 * Create/edit players
 * Create/edit teams
@@ -60,6 +60,7 @@
   * Cup, league, etc
   * Select players and create cup
   * Generate seeds based on ranking
+* Seach/filter of league
 
 ### Version 3
 * Blog posts/rticles
