@@ -8,6 +8,7 @@
   * Name: String
   * Sport: String //Enum: "foos", "tabletennis"
   * Image: Binary
+  * Description: String
   * Config: PropertySet
   * Players
     * PlayerId
