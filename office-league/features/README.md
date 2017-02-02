@@ -41,7 +41,7 @@
   * For a player, this can be done from the league presentation (ex: a Join button) or through their profile.
   * For a team, it is dynamically associated if the 2 players are in the league
     * Can happen when a player joins/leave a league, a team is created/updated/deleted.
-  
+* Localization  
 
 ### Version 2
 * Newsfeed (Last games of the leagues) (Will ease up the notifications also)  * Tweet/comment from profile
@@ -62,7 +62,6 @@
   * Generate seeds based on ranking
 
 ### Version 3
-* Localization
 * Blog posts/rticles
 
 ### Version 4
