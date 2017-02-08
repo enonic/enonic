@@ -6,19 +6,7 @@
  
 ### Core
 
-:soccer: - PWA feature
-
-* PWA
-  * Caching only after login
-  * All pages rendered by angular
-    * Admin preview?
-    * Search engines
-    * Deep-linking
-  * Routing should be similar on server and client (ie 404 & 403)
-  * Every other page should return the angular page
-  * Add to homescreen = /
-  * Languages
- 
+:soccer: - PWA features
     
 * Home page 
   * Presentation of the foosball app
@@ -75,7 +63,9 @@
 * Seach/filter of league
 
 ### Version 3
-* Blog posts/rticles
+* CMS Integration
+  * Blog posts
+  * About/Contact
 * Multiple languages
 
 ### Version 4
@@ -85,4 +75,14 @@
 ## Technical requirements
 * The data should be retrieve from the back-end using GraphQL
 * The data (except the landing pages) should be stored as node directly
+* PWA
+  * Caching only after login
+  * All pages rendered by angular
+    * Admin preview?
+    * Search engines
+    * Deep-linking
+  * Routing should be similar on server and client (ie 404 & 403)
+  * Every other page should return the angular page
+  * Add to homescreen = /
+  * Languages
 
