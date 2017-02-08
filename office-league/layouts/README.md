@@ -1,30 +1,38 @@
 # Screen Layouts
 
+## Menu
+* Home (v2): Newsfeed if logged in / Sales page if logged out
+* Profile
+* Leagues
+* Players
+* Teams
+* Blog
+* Contact / Support
+* About
+* Log-in or Log-out
+
 ## Pages
 
-* Menu (Navigation bar on the side)
-  * Log-in or Log-out
-  * Navigate to
-    * Foos/TableTennis leagues list
-    * Profile
-    * Home/Newsfeed (v2)
-* Home page
-  * Sign up / Log-in
+* Sales page
+  * Presentation of the services
+  * Sign up / Log-in (Endomondo)
   * Continue without login -> All/Your leagues list (if logged in or not)
-* Your leagues list (logged in)
-  * Displays list of leagues you are a part of
-  * Join a league button  -> All leagues list
-  * Create a league button
-* All leagues list 
-  * Displays list of all leagues
-  * Create league
+* Newsfeed (v2)
+  * Start game
+  * Displayed instead of the home page if the user is logged in
+* Leagues 
+  * Header (Only if logged in. If loggedout: Discver)
+    * My leagues tab 
+    * Discover leagues
+    * Create button (Displayed as '+')
+  * List of league summaries
 * League profile
+  * Join button (if not member. Approval later)
   * Players list summary (ranked) -> Players list
   * Teams list summary (ranked) -> Teams list
   * Latest games list summary -> Games list
   * Rules (Generated text from the league config)
-  * Join button
-  * Edit button (if owner)
+  * Edit button (if league-admin)
 * League creation/edit
   *  Inputs
     * Name
@@ -50,7 +58,7 @@
   * Teams
     * Create a new team
   * Leagues (show your rank in that league)
-  * Edit button
+  * Edit button ()
   * Badges (v2)
 * Player creation/edit
   *  Inputs
@@ -78,8 +86,7 @@
     * Description
     * Create/Save button -> Player profile (v2: Notification)
     * Delete button -> Player list (v2: Notification)
-* Newsfeed (v2)
-  * Displayed instead of the home page if the user is logged in
+
   
     
   
