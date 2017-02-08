@@ -8,6 +8,18 @@
 
 :soccer: - PWA feature
 
+* PWA
+  * Caching only after login
+  * All pages rendered by angular
+    * Admin preview?
+    * Search engines
+    * Deep-linking
+  * Routing should be similar on server and client (ie 404 & 403)
+  * Every other page should return the angular page
+  * Add to homescreen = /
+  * Languages
+ 
+    
 * Home page 
   * Presentation of the foosball app
   * Add to home screen :soccer:
@@ -73,3 +85,4 @@
 ## Technical requirements
 * The data should be retrieve from the back-end using GraphQL
 * The data (except the landing pages) should be stored as node directly
+
