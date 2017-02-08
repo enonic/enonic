@@ -10,6 +10,7 @@
   * Image: Binary
   * Description: String
   * Config: PropertySet
+  * Admins: PlayerId[]
   * PlayersStats
     * PlayerId
     * Stats
