@@ -11,6 +11,7 @@ Every relevant aspect of PWA from front-end to back-end should be explored.
 
 * [Blog post](blogpost/README.md)
 * [Features & Requirements](features/README.md)
+* [Layouts](layouts/README.md)
 * [Data](data/README.md)
 
 
