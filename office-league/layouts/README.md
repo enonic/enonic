@@ -6,9 +6,9 @@
 * Leagues
 * Players
 * Teams
-* Blog
-* Contact / Support
-* About
+* Blog (v2)
+* Contact / Support (v2)
+* About (v2)
 * Log-in or Log-out
 
 ## Pages
