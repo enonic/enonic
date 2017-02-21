@@ -13,7 +13,7 @@
 
 ## Pages
 
-* Sales page
+* Presentation page
   * Presentation of the services
   * Sign up / Log-in (Endomondo)
   * Continue without login -> All/Your leagues list (if logged in or not)
@@ -42,13 +42,13 @@
     * Config (appears on sport selection, default values)
     * Create/Save button -> League profile
     * Delete button -> Leagues list (v2: Notification)
-* Players list (for a League)
+* LeaguePlayers list
   * Ranked list of players -> Player profile
-  * Graph
+  * Ranking graph
   * Add player to league button (v2)
 * Teams list (for a League)
   * Ranked list of teams -> Team profile
-  * Graph
+  * Ranking graph
   * Add team to league button (v2)
 * Player profile
   * Picture
