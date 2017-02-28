@@ -50,6 +50,14 @@
   * Ranked list of teams -> Team profile
   * Ranking graph
   * Add team to league button (v2)
+* Player list
+  * List of players
+  * Search field
+  * Pagination
+* Team list
+  * List of players
+  * Search field
+  * Pagination
 * Player profile
   * Picture
   * Basic data: Name, Left/Right handed, Nationality, (Configurable attributes?), ...
