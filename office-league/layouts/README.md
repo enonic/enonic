@@ -49,7 +49,6 @@
 * Teams list (for a League)
   * Ranked list of teams -> Team profile
   * Ranking graph
-  * Add team to league button (v2)
 * Player list
   * List of players
   * Search field
