@@ -8,42 +8,44 @@
 
 :soccer: - PWA features
     
-* Home page 
-  * Presentation of the foosball app
-  * Add to home screen :soccer:
-* Create/edit players
-* Create/edit teams
-* Support league (scope for games)
+- [x] Home page 
+  - [x] Presentation of the foosball app
+  - [ ] Add to home screen :soccer:
+- [ ] Marketing page 
+- [ ] Create/edit players
+- [ ] Create/edit teams
+- [x] Support league (scope for games)
 * Record a game
-  * Select by team/player
-  * Select players (Invites?)
-  * Enter goals (Self goals?)
-  * Offline mode :soccer:
-  * Sync game data when back online :soccer: 
-  * Team creation if team does not exist
-* Game summary page
-* Player profile
-  * Linked to a user
-* Team profile
-* League page summary
-  * Show ranking changes, latest games, etc
-* Notifications for games played from your league :soccer:
-* Leaderboard / ranking page (by league)
-  * Elo ranking system like in Foos 1.0, or similar
-* Administration
-  * Possibility for create/delete players, teams, games
+  - [x] Select players
+  - [x] Enter goals (Self goals?)
+  - [x] Offline mode
+  - [ ] Sync game data when back online :soccer: 
+  - [ ] Team creation if team does not exist
+  - [ ] Rating computation/adaptation
+- [ ] Game page
+- [x] Player profile
+  - [x] Linked to a user
+- [x] Team profile
+- [x] League page summary
+  - [x] Show ranking changes, latest games, etc
+  - [ ] Notifications for games played from your league :soccer:
+- [x] Leaderboard / ranking page (by league)
+  - [x] Elo ranking system like in Foos 1.0, or similar
+- [x] Join a league
+  - [x] For a player, this can be done from the league presentation (ex: a Join button) or through their profile.
+  - [ ] For a team, it is dynamically associated if the 2 players are in the league
+    * Can happen when a player joins/leave a league, a team is created/updated/deleted.
+- [x] Localization research
+
+### Version 1.1
 * Live games and tournaments
   * Page that shows game being played
   * Use WebSockets to update game details
 * Comments on games
   * Both for during game (like a chat) and after (like a blog comment)
-* Join a league
-  * For a player, this can be done from the league presentation (ex: a Join button) or through their profile.
-  * For a team, it is dynamically associated if the 2 players are in the league
-    * Can happen when a player joins/leave a league, a team is created/updated/deleted.
-* Localization  
 
 ### Version 2
+* Invite players to game
 * Newsfeed (Last games of the leagues) (Will ease up the notifications also)  * Tweet/comment from profile
 * Comments/Post/Article on wall
 * Record game improv.
