@@ -45,6 +45,7 @@
   - [ ] Push notification client :soccer:
 * Comments on games
   * Both for during game (like a chat) and after (like a blog comment)
+* League rules config
 
 ### Version 2
 * Invite players to game
