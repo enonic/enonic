@@ -28,7 +28,6 @@
 - [x] Team profile
 - [x] League page summary
   - [x] Show ranking changes, latest games, etc
-  - [ ] Notifications for games played from your league :soccer:
 - [x] Leaderboard / ranking page (by league)
   - [x] Elo ranking system like in Foos 1.0, or similar
 - [x] Join a league
@@ -41,6 +40,9 @@
 * Live games and tournaments
   * Page that shows game being played
   * Use WebSockets to update game details
+- [ ] Notifications (On game played in your league, send notification with a link to live game page)
+  - [ ] Push notification server
+  - [ ] Push notification client :soccer:
 * Comments on games
   * Both for during game (like a chat) and after (like a blog comment)
 
