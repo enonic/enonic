@@ -12,7 +12,7 @@
   - [x] Presentation of the foosball app
   - [ ] Add to home screen :soccer:
 - [ ] Marketing page 
-- [ ] Create/edit players
+- [x] Create/edit players
 - [ ] Create/edit teams
 - [x] Support league (scope for games)
 * Record a game
@@ -20,9 +20,9 @@
   - [x] Enter goals (Self goals?)
   - [x] Offline mode
   - [ ] Sync game data when back online :soccer: 
-  - [ ] Team creation if team does not exist
-  - [ ] Rating computation/adaptation
-- [ ] Game page
+  - [x] Team creation if team does not exist
+  - [x] Rating computation/adaptation
+- [x] Game page
 - [x] Player profile
   - [x] Linked to a user
 - [x] Team profile
