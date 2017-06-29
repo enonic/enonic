@@ -7,8 +7,27 @@
 - We can specify CSS classes either inline in XML, or point to a CSS file and a class name
 - Refering to CSS file should work for LESS & SASS because their compiled result is included in the app (point to compiled CSS instead of source SASS)
 
-Example: /site/images/portrait/portrait.xml
+Examples: /site/images/portrait/portrait.xml
 
+```xml
+<image>
+  <display-name>Portrait</display-name>
+  <description>Portrait image</description>
+
+  <scaling>
+    <width size="100"/>
+  </scaling>
+  
+  <css src="/assets/css/portrait.css" class="myapp-portrait-img"/>
+ 
+  <format type="jpeg" quality="90"/>
+  <effects>
+    <grayscale/>
+  </effects>
+</image>
+```
+
+Older option:
 ```xml
 <image>
   <display-name>Portrait</display-name>
