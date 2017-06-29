@@ -42,7 +42,11 @@ Example: /site/images/portrait/portrait.xml
 
 ### Alternative: Single file for all image styles (@bwe)
 - Instead of one xml file per image style, have a common images.xml at the same level as site.xml
-- There could be a `<images>` wrapping all the <image> elements
+- There could be a `<images>` wrapping all the `<image>` elements
+- This would allow us to add other config files in future for other things.
+- This doesn't introduce yet another set of folders, or multiple files to look through.
+- Alternative: collect all these configs in a `/site/config/` location, each xml with a logic name. Like editor.xml, images.xml, components.xml, responsive.xml ... and so on. Whatever might come up in the future.
+- Also, I strongly suggest to leave everything about classes and css out for now, rather introduce this in the future editor config where you can add classes to editor (tinyMCE). An image config can add one or more classes to the figure element, but that's it. Styling in admin is not changed, only thing that is visual is that the image get correct cropping/scaling. Additional css for round corners and such is left out, only visible in admin. At a later stage this can be introduced, but then we are in more need of that setting on text, headings, and links etc, not images. So feels odd to fix it for images now but not the other things. So I vote strongly for a separation. Images now, styles in admin later.
 
 ## Admin Editor
 For showing the styles in Admin Html Editor we need:
