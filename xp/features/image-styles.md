@@ -42,7 +42,7 @@ Example: /site/images/portrait/portrait.xml
 
 ### Alternative: Single file for all image styles (@bwe)
 - Instead of one xml file per image style, have a common images.xml at the same level as site.xml
-- There could be a <images> wrapping all the <image> elements
+- There could be a `<images>` wrapping all the <image> elements
 
 ## Admin Editor
 For showing the styles in Admin Html Editor we need:
