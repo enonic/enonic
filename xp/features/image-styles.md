@@ -27,7 +27,7 @@ Examples: /site/images/portrait/portrait.xml
 </image>
 ```
 
-Older option:
+Discarded alternative:
 ```xml
 <image>
   <display-name>Portrait</display-name>
