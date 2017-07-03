@@ -1,5 +1,54 @@
 # Image Styles (WIP)
 
+
+Create definitions for server side image generation, and use same name for css style.
+
+```xml
+<image-styles editor-css="assets/somefile.css">
+	<style name="thumbnail"><!-- Same as CSS class -->
+		<display-name>Thumbnail</display-name>
+		<scale>block(400,500)</scale><!-- Only mandatory config -->
+		<quality>85</quality><!-- Only applies to jpg -->
+		<format>jpg</format>
+	</style>
+	<style name="portrait">
+		<display-name>Portrait</display-name>
+		<scale relative="true">widescren</scale><!-- Only mandatory config -->
+		<quality>85</quality><!-- Only applies to jpg -->
+		<format>jpg</format>
+	<style>
+</image-styles>
+```
+
+
+Use the following pre-defined classes for use by editor
+
+* image-left
+* image-justify
+* image-center
+* image-right
+
+
+When user choose an app-defined style from the list of image-styles, this is also added to the figure element.
+
+If user chooses "advanced" and toggles the various settings, the following classes are added to the markup.
+
+image-scale-xx
+image-scale-widescreen
+etc
+
+
+For custom adjustments to image size in px or %
+
+image-size-original
+image-size-custom???
+
+Finally, store width adjustments inline as absolute or relative i.e. width: 80% or 321px
+
+
+- Need to support client vs server side processHtml() with optional width parameter
+
+
 ## Image Style Descriptors
 - Located in a new directory in the app for image styles: **/site/images/**
 - One folder per image style, similar to other descriptors (parts, pages, layouts, macros)
