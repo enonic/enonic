@@ -68,11 +68,22 @@ To simplify how styles are understood and handled, we can update the
 * Add a new parameter??? to the imageService endpoint, "style" that will automatically lookup and apply the proper rendering to the image. Style will additionally need to know both width and dpr. Need to figure out if this is a parameter or url-path-thing.
 * Add DPR support (maybe just use headers? override support?)
 
+* The style could simply be handled on the url like we handle other scaling
+image/71352714-39f2-42a9-a95a-4bf7d1d849e5:0ae184529474ab999a557105f464ab40ba241ff7/style-nnnn/image-name.jpg.jpeg?quality=90
+
+Hmm.. hva med custom width? Forby blanding av stil og custom bredder?
+
 ## ProcessHTML
 
 * Needs a new parameter to set default "width" in px when processing markup. This can be used to set a default image size for simple server-side image size handling. This is currently hard-coded in processHTML (may be an issue with text component and imageComponent?)
 
 * Needs a new parameter, to specify "client-side" rendered mode vs "server-side" render mode. If invoked with client-side mode, it will simply create a imagePlaceholder, and pass settings as data-image?? on the element. This mode will require the developer to add a "renderImage" or similar javascript on the pages, that will automatically find and replace all placeholder with proper images.
+
+
+## Editor handling
+
+When alignment, styles and custom settings are chosen in the editor, these will be stored as classes, and inline styles.
+NB! We need to consider if the style should also be stored directly on the image url or not?
 
 
 ## Backwards compatibility
