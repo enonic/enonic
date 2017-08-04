@@ -6,6 +6,21 @@ This tasks aims to improve how images are inserted and styled using the HTML edi
 
 Image styles will as such define a combination of client side CSS and server image rendering parameters.
 
+# Editor image dialogue
+
+Here are screenshots on how we imagine the actual new insert dialogue should appear. The alignment and style dropdown should be "similar" when working directly in the document. Meaning when an image is selected the image styles will be listed there too.
+
+![](https://github.com/enonic/enonic/blob/master/xp/features/html-image-editor.001.jpeg) "Initial dialogue"
+
+![](https://github.com/enonic/enonic/blob/master/xp/features/html-image-editor.002.jpeg) "After alignment"
+
+![](https://github.com/enonic/enonic/blob/master/xp/features/html-image-editor.003.jpeg) "After style selection"
+
+![](https://github.com/enonic/enonic/blob/master/xp/features/html-image-editor.004.jpeg) "Relative Width"
+
+![](https://github.com/enonic/enonic/blob/master/xp/features/html-image-editor.005.jpeg) "Exact width"
+
+
 
 # Custom image styles
 
