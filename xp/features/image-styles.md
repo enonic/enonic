@@ -71,12 +71,12 @@ We should probably use the "site" app to change settings such as disabling stand
 
 ## Alignment styles
 
-The following pre-defined classes will also be used by the editor, ships with xp by default + developer has to implement this on all sites.
+The following pre-defined classes will also be used by the editor, ships with xp by default + developer has to implement this on all sites. This will be added to the `<figure>` element wrapping the image.
 
-* image-left
-* image-justify
-* image-center
-* image-right
+* editor-left
+* editor-justify
+* editor-center
+* editor-right
 
 
 When user choose an app-defined style from the list of image-styles, this is will be added to the figure element in addition to any alignment.
@@ -86,6 +86,13 @@ When user choose an app-defined style from the list of image-styles, this is wil
 
 Users may customize the image size when deviating from "automatic/responsive" mode.
 User can choose either "Relative" in percent, or exact size in PX. This setting will be stored as an inline style, effectively overriding any other classes etc.
+
+```
+<figure class="editor-left thumbnail|bubble|list|square" data-custom-width="450|45%"><!-- "px" is per default -->
+	<img src="image://c137bb3a-19ee-4cd4-bb7f-b3f34056ee71" />
+	<figcaption>GraphQL request using a connection</figcaption>
+</figure>
+```
 
 
 ## ImageService
