@@ -88,7 +88,7 @@ Users may customize the image size when deviating from "automatic/responsive" mo
 User can choose either "Relative" in percent, or exact size in PX. This setting will be stored as an inline style, effectively overriding any other classes etc.
 
 ```
-<figure class="editor-left thumbnail|bubble|list|square" data-custom-width="450|45%"><!-- "px" is per default -->
+<figure class="editor-left thumbnail|bubble|list|square" style="width:450px;">
 	<img src="image://c137bb3a-19ee-4cd4-bb7f-b3f34056ee71" />
 	<figcaption>GraphQL request using a connection</figcaption>
 </figure>
