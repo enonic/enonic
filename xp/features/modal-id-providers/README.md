@@ -12,7 +12,7 @@ As an ID Provider developer, I should be able to return a JS script to be includ
 
 ## Examples
 
-![Diagram](diagram.jpg?raw=true)
+![Diagram](diagram.png?raw=true)
 ![Example 1](new-standard-id-provider.001.jpeg?raw=true)
 ![Example 2](new-standard-id-provider.002.jpeg?raw=true)
 ![Example 3](new-standard-id-provider.003.jpeg?raw=true)
