@@ -55,13 +55,13 @@ Each of these is stored in a separate file:
 
 #### How does a user enter the license?
 Some possibilities:
-- Copy the file in $XP_home/licenses/
+- Copy the file in $XP_HOME/licenses/
 - Use UI in Applications app
 
 #### Where to store the license?
 Some possibilities:
 - Node repo
-- Filesystem: $XP_home/config/ or $XP_home/licenses/
+- Filesystem: $XP_HOME/config/ or $XP_HOME/licenses/
 
 ### Validate license
 The application decides when to validate the license and what license info to use or show. This is done programatically, from a JS controller (or Java) by calling functions from the License-lib.
