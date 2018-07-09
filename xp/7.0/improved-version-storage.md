@@ -17,12 +17,14 @@ None
 
 ## Raw specs to be discussed
 
-* One root folder by repository: /data/cms-repo/blobs/aa/bb/cc/aabbccxxx
+* One root folder by repository: /$blobstore/cms-repo/blobs/aa/bb/cc/aabbccxxx
+  * Use a generated ID per repo than name
 * node will now be stored by Node ID, with versions as subfolder/files (the versions will not be md5 anymore but a random ID) to allow upgrading of version files.
 * (Lower prio)Binary counter in the index to keep track of number of nodes using the Binary
 * Rewrite Vacuum (Example: Repositories can be deleted in an easier way)
 * Rewrite versions table (only need to hold versions that are in branches), and nodes that are/ have not yet been deleted
 * Fix "Hack" for detecting changed nodes (related to metadata - ask @runarmyklebust )
 * Look at dump/export format
+
 
   
