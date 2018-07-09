@@ -39,6 +39,17 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * Support dragging folders with media (Content Studio)
 * Site roles
 
-## Q3-2017
+## 7.0
 
-## Q4-2017
+* [Data migration](7.0/data-migration.md)
+* [Improved version storage](7.0/improved-version-storage.md)
+* New CLI for Toolbox
+* PurpleJS in XP
+* Kubernetes
+* Java 11
+* HTML Area model
+* Image/CSS styles in HTML Area
+* New user store/ID provider model
+* Move Thymeleaf and Mustache to separate libs
+* Query - Consistent path handling
+* Remove all backwards compatibility hacks
