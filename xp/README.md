@@ -46,7 +46,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * New CLI for Toolbox
 * PurpleJS in XP
 * Kubernetes
-* Java 11
+* [Java 11](7.0/java-11.md)
 * HTML Area model
 * Image/CSS styles in HTML Area
 * New user store/ID provider model
