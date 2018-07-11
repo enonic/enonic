@@ -43,13 +43,13 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 * [Data migration](7.0/data-migration.md)
 * [Improved version storage](7.0/improved-version-storage.md)
+* [Java 11](7.0/java-11.md)
+* [Thymeleaf and Mustache to separate libs](7.0/mustache-thymeleaf.md)
 * New CLI for Toolbox
 * PurpleJS in XP
 * Kubernetes
-* [Java 11](7.0/java-11.md)
 * HTML Area model
 * Image/CSS styles in HTML Area
 * New user store/ID provider model
-* Move Thymeleaf and Mustache to separate libs
 * Query - Consistent path handling
 * Remove all backwards compatibility hacks
