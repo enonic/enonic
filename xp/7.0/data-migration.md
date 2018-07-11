@@ -31,7 +31,7 @@ None
 
 Supposition: We use a pattern X.Y for the versioning of data and dumps.
 * X is incremented on breaking changes.
-* Y is incremented on breaking changes (extension of the schema).
+* Y is incremented on non breaking changes (extension of the schema).
 * The specifications of the data/dumps would be defined by this X.Y version.
 * To be able to upgrade the data/dump on demand, we need to store this information.
 Only the major version is necessary for the upgrade since a data/dump X1 is supposed to be compatible with all the subsequent X1.* versions.
