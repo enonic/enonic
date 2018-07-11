@@ -1,4 +1,4 @@
-# Data migration
+# Java 11
 
 * The system should be built with Java 11 and run with Java >=11
 
