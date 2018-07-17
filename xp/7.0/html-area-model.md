@@ -7,7 +7,7 @@
 * The input type "HtmlArea" is now a property set.
   * It contains a property "value" of type string.
   * It contains a property "references" of type reference.
-* The HTML stripping is done in the property "value"
+* The HTML stripping is done on the property "value"
 * Data migration should include the migration of HTML areas for both index config and data
 
 ## Dependencies
