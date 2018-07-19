@@ -9,6 +9,7 @@
 ## Dependencies
 
 Java 11 will be released in September 2018.
+Java 9 seems to require an upgrade to ES2.4 and Apache Ignite upgrade
 
 ## Details
 
