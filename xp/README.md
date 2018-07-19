@@ -46,6 +46,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * [Java 11](7.0/java-11.md)
 * [Thymeleaf and Mustache to separate libs](7.0/mustache-thymeleaf.md)
 * [HTML Area model](7.0/html-area-model.md)
+* ES upgrade
 * New CLI for Toolbox
 * PurpleJS in XP
 * Kubernetes
