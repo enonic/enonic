@@ -4,13 +4,9 @@
 
 ## Requirements
 
-* The input type "HtmlArea" is now a property set.
-  * It contains a property "value" of type string.
-  * It contains a property "references" of type reference.
-* The HTML stripping is done on the property "value"
-* Data migration should include the migration of HTML areas for both index config and data
+* A ContentProcessor (portal level) should analyze all HTML areas of a content on create&update and store the references in a new content property: processedReferences
 
-## Dependencies
+## To be discussed
 
-Data Migration should be partially done
+Discuss if should be part of the dump migration or if we need to add a step "reprocess" when migrating to 7.0
 
