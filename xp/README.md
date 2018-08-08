@@ -54,6 +54,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * Image/CSS styles in HTML Area
 * New user store/ID provider model
 * Principal value type
+* Flatten page structure
 * Query - Consistent path handling
 * 7.0 backend backlog
 * Removal of all backwards compatibility hacks
