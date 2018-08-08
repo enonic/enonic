@@ -42,7 +42,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 ## 7.0
 
 * [Data migration](7.0/data-migration.md)
-* [Automatic data upgrade](7.0/automatic-data-upgrade.md)
+* ~~[Automatic data upgrade](7.0/automatic-data-upgrade.md)
 * [Improved version storage](7.0/improved-version-storage.md)
 * [Java 11](7.0/java-11.md)
 * [Thymeleaf and Mustache to separate libs](7.0/mustache-thymeleaf.md)
