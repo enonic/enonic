@@ -60,3 +60,8 @@
 `enonic-cli home delete`   # Delete an xp_home directory  
 `enonic-cli home set`   # Set the current xp_home context   
 `enonic-cli home list`   # List the existing xp_home directories
+
+
+# To be discussed
+
+* How to install Java? Include with the CLI, include with distro, download by the CLI?
