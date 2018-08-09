@@ -35,37 +35,28 @@
 
 ## CLI options
 
-enonic-cli
-  xp
-    start [version]
-      Starts XP. Download if necessary
-    stop
-      Stops XP
-    set
-      Set default xp version
-    list
-      List all xp installations (and point out the default one)
-  project
-    new
-      Init-app +Wizard
-    delete
-    clean
-      Gradle clean
-    build
-      Gradle Build
-    install
-      Gradle install
-    deploy
-      gradle deploy
-    set
-      cd to the project directory
-    list
-      list all projects
-    add part/service/page
-      Wizard
-  home
-    new
-    delete
-    set
-    list
-    new
+### XP commands
+
+`enonic-cli xp start [version]`   # Start XP. Download if necessary  
+`enonic-cli xp stop` # Stop XP  
+`enonic-cli xp set` # Set default xp version  
+`enonic-cli xp list` # List all xp installations (and point out the default one)  
+
+### Project commands
+
+`enonic-cli project new`   # Init-app +Wizard  
+`enonic-cli project delete`   # Delete an application directory  
+`enonic-cli project clean`   # Gradle clean   
+`enonic-cli project build`   # Gradle build  
+`enonic-cli project install`   # Gradle install  
+`enonic-cli project deploy`   # Gradle deploy  
+`enonic-cli project set`   # cd to the project directory  
+`enonic-cli project list`   # List all projects  
+`enonic-cli project add [part|service|page]`   # Add part in project app. +Wizard  
+
+### Home commands
+
+`enonic-cli home new`   # Create a new xp_home (empty folder)  
+`enonic-cli home delete`   # Delete an xp_home directory  
+`enonic-cli home set`   # Set the current xp_home context   
+`enonic-cli home list`   # List the existing xp_home directories
