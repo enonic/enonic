@@ -2,6 +2,18 @@
 
 * As a user, I want to be able to manage my installations, homes and projects from a single command
 
+## Use cases
+* First time user create and deploy locally new app
+  * enonic-cli project new //Creates a directory, Cd, Init-app
+  * enonic-cli project deploy //Check if XP and home (downloads if missing and start), Gradle deploy
+* Deploying an app to different homes
+* Switching between homes and projects
+* Testing a project for a new version of enonic xp
+* OPT: Run a cluster locally
+* Run multiple instances of Enonic XP
+* Install app from market
+
+
 ## Example of use
 * Install Enonic CLI
   * brew install enonic-cli
@@ -20,17 +32,15 @@
   * distributions
     * 6.15.0
     * 7.0.0-SNAPSHOT
-  * homes
+  * homes(sandboxes)
     * default
     * customer-a
+      * .enonic: xp.version=6.15.1
     * customer-b
   * projects
     * myapp-a
+      * .enonic-cli: xp.home=customerA
     * office-league
-  * java
-    * jdk-1.8
-    * jdk-1.11
-  * context.properties
 
 
 ## CLI options
