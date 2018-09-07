@@ -48,6 +48,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * [Thymeleaf and Mustache to separate libs](7.0/mustache-thymeleaf.md)
 * [HTML Area model](7.0/html-area-model.md)
 * [Enonic CLI](7.0/enonic-cli.md)
+* [Request filters] (https://enonic.zendesk.com/agent/tickets/2273)
 * ES upgrade
 * PurpleJS in XP (ARO)
 * Kubernetes (RMY)
