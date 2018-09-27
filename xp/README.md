@@ -52,7 +52,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 * ES upgrade
 * PurpleJS in XP (ARO)
 * Kubernetes (RMY)
-* Image/CSS styles in HTML Area
+* [Image/CSS styles in HTML Area](https://github.com/enonic/enonic/blob/master/xp/features/image-styles.md)
 * New user store/ID provider model
 * Principal value type
 * Flatten page structure (ARO)
