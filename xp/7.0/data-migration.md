@@ -10,9 +10,9 @@
 * The dump upgrade must be done server side
 * If the version to be loaded is incompatible, the dump load should update the dump first.
 
-## Dependencies
+## Epic
 
-None
+https://github.com/enonic/xp/issues/6431
 
 ## Details
 
