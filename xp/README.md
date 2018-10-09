@@ -41,15 +41,14 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 ## 7.0
 
-- [ ] [Data migration](7.0/data-migration.md)
-- [ ] ~~[Automatic data upgrade](7.0/automatic-data-upgrade.md)~~
-- [ ] [Improved version storage](7.0/improved-version-storage.md)
-- [ ] [Java 11 & ES Upgrade](7.0/java-11.md)
 - [x] [Thymeleaf and Mustache to separate libs](7.0/mustache-thymeleaf.md)
+- [x] [Data migration](7.0/data-migration.md)
+- [x] [Java 11 & ES Upgrade](7.0/java-11.md)
+- [ ] [Improved version storage](7.0/improved-version-storage.md)
 - [ ] [HTML Area model](7.0/html-area-model.md)
 - [ ] [Enonic CLI](7.0/enonic-cli.md)
 - [ ] [Request filters](https://enonic.zendesk.com/agent/tickets/2273)
-- [ ] PurpleJS in XP (ARO)
+- [ ] ~~PurpleJS in XP (ARO)~~
 - [ ] Kubernetes (RMY)
 - [ ] [Image/CSS styles in HTML Area](https://github.com/enonic/enonic/blob/master/xp/features/image-styles.md)
 - [ ] New user store/ID provider model
@@ -58,3 +57,6 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [ ] Query - Consistent path handling
 - [ ] 7.0 backend backlog
 - [ ] Removal of all backwards compatibility hacks
+
+## 7.1
+- [ ] [Automatic data upgrade](7.0/automatic-data-upgrade.md)
