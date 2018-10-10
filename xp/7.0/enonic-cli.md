@@ -2,11 +2,11 @@
 
 * As a user, I want to be able to manage my installations, homes and projects from a command-line interface
 
-## Link Project/Home/EnonicXP
+## Link Project/Sandbox/EnonicXP
 
-* XP Home created with the CLI will have a reference to a Enonic XP version
-* XP Project (apps/libs) created with the CLI will have a reference to a XP Home
-* These references will be stored in a file '.enonic-cli' at the root of the Home/Project
+* Sandboxes contain an XP home and have a reference to a Enonic XP version
+* Project (apps/libs) created with the CLI will have a reference to a sandbox
+* These references will be stored in a file '.enonic-cli' at the root of the Home/Sandbox
 
 ## Code
 * Enonic CLI code will be implemented in Go
@@ -29,12 +29,15 @@
     * default
       * .enonic-cli: xp.version=6.15.1
       * home
+      * blob
     * customer-a
       * .enonic-cli: xp.version=6.15.1
       * home
+      * blob
     * customer-b
       * .enonic-cli: xp.version=6.15.2
       * home
+      * blob
   * projects
     * myapp-a
       * .enonic-cli: xp.sandbox=customer-a
@@ -46,13 +49,13 @@
 ### XP commands
 
 * `enonic xp` # List XP commands
-* `enonic xp ls` # List all distributions in the CLI folder (and point out the running one)  
+* `enonic xp ls` # List all distributions in the CLI folder (and point out the running one)
 
 ### Sandbox commands
 
 * `enonic sandbox`   # List Sandbox commands
-* `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the one associated to the current project)
-* `enonic sandbox start [xpVersion=latest_release]`   # Start XP. Download if necessary  
+* `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
+* `enonic sandbox start [name]`   # Start the sandbox.
 * `enonic sandbox stop` # Stop XP  
 * `enonic sandbox new`   # Wizard: Create a new sandbox (copy the home from the XP version)
 * `enonic sandbox delete`   # Delete a sandbox
