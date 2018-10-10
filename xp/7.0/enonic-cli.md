@@ -32,6 +32,7 @@
       * .enonic-cli: xp.version=6.15.1
     * customer-b
   * projects
+    * .enonic-cli (Stores the current project context)
     * myapp-a
       * .enonic-cli: xp.home=customerA
     * office-league
@@ -50,9 +51,9 @@
 
 * `enonic-cli home`   # List Home commands
 * `enonic-cli home ls`   # List all homes in the CLI folder
-* `enonic-cli home new`   # Create a new xp_home (empty folder)  
-* `enonic-cli home delete`   # Delete an xp_home directory  
-* `enonic-cli home set`   # Set the current xp_home context   
+* `enonic-cli home new`   # Create a new home (copy the home from the XP version)
+* `enonic-cli home delete`   # Delete an home
+* `enonic-cli home set`   # Set the default home context for the current project
 
 ### Project commands
 
@@ -68,6 +69,12 @@
 * `enonic-cli project set`                              # cd to the project directory   
 * `enonic-cli project delete [name=current_repository]` # Delete the application directory
 * `enonic-cli project add (part|service|page|...)`      # Wizard: Add part/service/page/... in the project
+
+### Default values
+
+* The default project is
+** The current directory
+** If the current directory is not a CLI project, 
 
 
 
