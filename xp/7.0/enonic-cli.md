@@ -66,7 +66,7 @@
 * `enonic project`      # List Project commands
 * `enonic project ls`   # List all projects in the CLI folder
 * `enonic project new`  # Wizard: Init-app + Chdir + Create sandbox if necessary
-* `enonic project run [projectName]`  # Gradle deploy + Start of the associated Enonic XP if not started
+* `enonic project run [projectName]`  # = `enonic project deploy [projectName]` + `enonic sandbox start`
 * `enonic project clean [projectName]`  # Gradle clean   
 * `enonic project build [projectName]`  # Gradle build  
 * `enonic project install [projectName]`# Gradle build + /api install 
