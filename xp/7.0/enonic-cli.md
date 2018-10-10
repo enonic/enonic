@@ -52,7 +52,7 @@
 
 * `enonic sandbox`   # List Sandbox commands
 * `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the running one and the default one)
-* `enonic sandbox start [sandboxName]`   # Start the sandbox.
+* `enonic sandbox start [sandboxName]`   # Start the sandbox. Create if not existing
 * `enonic sandbox stop` # Stop XP  
 * `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro)
 * `enonic sandbox delete [sandboxName]`   # Delete a sandbox
@@ -81,9 +81,14 @@
   * If no running sandbox, sandbox associated to the current project
 
 ## Use cases
-* First time user create and deploy locally new app
+* First time user create and deploy locally new app (Demo effect)
   * `enonic project new`
   * `enonic project run`
+* First time user create and deploy locally new app (Same in basic steps)
+  * `enonic sandbox new`
+  * `enonic sandbox start [sandboxName]`
+  * `enonic project new`
+  * `enonic project deploy`
 * Deploying an app to different homes
   * enonic project deploy
   * enonic sandbox set customer-b
