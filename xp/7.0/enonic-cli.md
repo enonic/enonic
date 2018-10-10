@@ -1,6 +1,6 @@
 # Enonic CLI
 
-* As a user, I want to be able to manage my distributions, homes and projects from a command-line interface
+* As a user, I want to be able to manage my installations, homes and projects from a command-line interface
 
 ## Link Project/Sandbox/EnonicXP
 
