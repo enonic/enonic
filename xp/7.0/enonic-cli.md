@@ -41,33 +41,31 @@
 
 ### XP commands
 
-* `enonic-cli xp` # List XP commands
-* `enonic-cli xp ls` # List all distributions in the CLI folder (and point out the running one)  
-* `enonic-cli xp start [xpVersion=latest_release]`   # Start XP. Download if necessary  
-* `enonic-cli xp stop` # Stop XP 
+* `enonic xp` # List XP commands
+* `enonic xp ls` # List all distributions in the CLI folder (and point out the running one)  
+* `enonic xp start [xpVersion=latest_release]`   # Start XP. Download if necessary  
+* `enonic xp stop` # Stop XP 
 
 ### Home commands
 
-* `enonic-cli home`   # List Home commands
-* `enonic-cli home ls`   # List all homes in the CLI folder (and point out the one associated to the current project) 
-* `enonic-cli home new`   # Wizard: Create a new home (copy the home from the XP version)
-* `enonic-cli home delete`   # Delete an home
-* `enonic-cli home set`   # Set the default home context for the current project
+* `enonic home`   # List Home commands
+* `enonic home ls`   # List all homes in the CLI folder (and point out the one associated to the current project) 
+* `enonic home new`   # Wizard: Create a new home (copy the home from the XP version)
+* `enonic home delete`   # Delete an home
+* `enonic home set`   # Set the default home context for the current project
 
 ### Project commands
 
-* `enonic-cli project`      # List Project commands
-* `enonic-cli project ls`   # List all projects in the CLI folder
-* `enonic-cli project new`  # Wizard: Init-app
-  * Execute what is today Init-app
-  * Chdir to the project directory
-* `enonic-cli project clean [projectName=current_repository]`  # Gradle clean   
-* `enonic-cli project build [projectName=current_repository]`  # Gradle build  
-* `enonic-cli project install [projectName=current_repository]`# Gradle build + /api install 
-* `enonic-cli project deploy [projectName=current_repository]` # Gradle deploy  
-* `enonic-cli project set [projectName]`                       # Chdir to the project directory   
-* `enonic-cli project delete [projectName=current_repository]` # Delete the application directory
-* `enonic-cli project add (part|service|page|...) `      # Wizard: Add part/service/page/... in the project
+* `enonic project`      # List Project commands
+* `enonic project ls`   # List all projects in the CLI folder
+* `enonic project new`  # Wizard: Init-app + Chdir
+* `enonic project clean [projectName=current_repository]`  # Gradle clean   
+* `enonic project build [projectName=current_repository]`  # Gradle build  
+* `enonic project install [projectName=current_repository]`# Gradle build + /api install 
+* `enonic project deploy [projectName=current_repository]` # Gradle deploy  
+* `enonic project set [projectName]`                       # Chdir to the project directory   
+* `enonic project delete [projectName=current_repository]` # Delete the application directory
+* `enonic project add (part|service|page|...) `      # Wizard: Add part/service/page/... in the project
 
 
 ## Use cases
