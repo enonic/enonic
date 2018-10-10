@@ -76,9 +76,7 @@
 ### Default values
 
 * projectName: Current directory
-* sandboxName: 
-  * Running sandbox
-  * If no running sandbox, sandbox associated to the current project
+* sandboxName: Sandbox associated to the current project
 
 ## Use cases
 * First time user create and deploy locally new app
