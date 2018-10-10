@@ -77,7 +77,6 @@
 ** If the current directory is not a CLI project, 
 
 
-
 ## Use cases
 * First time user create and deploy locally new app
   * enonic-cli project new //Creates a directory, Cd, Init-app
