@@ -57,6 +57,7 @@
 ### Sandbox commands
 
 * `enonic sandbox`   # List available sandbox commands
+* `enonic sandbox help [command]`   # Display help page for a specific sandbox command
 * `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
 * `enonic sandbox set [sandboxName]`   # Set the default sandbox for the current project
 * `enonic sandbox start [sandboxName]`   # Start the sandbox. Create if not existing
@@ -68,6 +69,7 @@
 ### Project commands
 
 * `enonic project`      # List available project commands
+* `enonic project help [command]`   # Display help page for a specific project command
 * `enonic project ls`   # List all projects in the CLI folder
 * `enonic project set [projectName]`  # Chdir to the project directory   
 * `enonic project new`  # Wizard: Init-app + Chdir + Create sandbox if necessary
@@ -81,6 +83,8 @@
 
 ### Toolbox commands
 
+* `enonic toolbox`      # List available toolbox commands
+* `enonic toolbox help [command]`   # Display help page for a specific toolbox command
 * `enonic toolbox delete-snapshots`   # Deletes snapshots, either before a given timestamp or by name.
 * `enonic toolbox dump`               # Export data from every repository.
 * `enonic toolbox export`             # Export data for a specified path.
