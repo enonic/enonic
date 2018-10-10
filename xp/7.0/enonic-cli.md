@@ -109,7 +109,5 @@
   * `enonic sandbox set customer-b`
   * `enonic project deploy`
 * Testing a project for a new version of enonic xp
-  * `enonic sandbox new`
-  * `enonic sandbox set new-sandbox`
-  * `enonic sandbox start`
+  * `enonic sandbox new` //Wizard will propose to associate the new sandbox to the current project
   * `enonic project deploy`
