@@ -2,14 +2,17 @@
 
 * As a user, I want to be able to manage my installations, homes and projects from a command-line interface
 
+
 ## Link Project/Home/EnonicXP
 
 * XP Home created with the CLI will have a reference to a Enonic XP version
 * XP Project (apps/libs) created with the CLI will have a reference to a XP Home
 * These references will be stored in a file '.enonic-cli' at the root of the Home/Project
 
+## Download
 
-
+* Enonic CLI should be available in download from the Enonic Website
+* Enonic CLI should be available using: brew, apt-get, ... //TBD
 
 ## Use cases
 * First time user create and deploy locally new app
@@ -56,6 +59,7 @@
 
 ### XP commands
 
+`enonic-cli xp`   # Lists XP commands
 `enonic-cli xp start [version]`   # Start XP. Download if necessary  
 `enonic-cli xp stop` # Stop XP  
 `enonic-cli xp set` # Set default xp version  
