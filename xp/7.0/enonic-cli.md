@@ -60,7 +60,7 @@
 * `enonic sandbox help [command]`   # Display help page for a specific sandbox command
 * `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
 * `enonic sandbox set [sandboxName]`   # Set the default sandbox for the current project
-* `enonic sandbox start [sandboxName]`   # Start the sandbox. Create if not existing
+* `enonic sandbox start [sandboxName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
 * `enonic sandbox stop` # Stop XP  
 * `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro)
 * `enonic sandbox delete [sandboxName]`   # Delete a sandbox
