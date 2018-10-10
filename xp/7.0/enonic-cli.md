@@ -49,7 +49,10 @@
 
 ## CLI options
 
-### XP commands
+### Default values
+
+* Default project: Current directory
+* Default sandbox: Sandbox associated to the current project
 
 ### Sandbox commands
 
@@ -76,10 +79,24 @@
 * `enonic project add (part|service|page|...) [projectName]`      # Wizard: Add part/service/page/... in the project
 * `enonic project remove (part|service|page|...) [projectName]`      # Remove part/service/page/... from the project
 
-### Default values
+### Toolbox commands
 
-* projectName: Current directory
-* sandboxName: Sandbox associated to the current project
+* `enonic toolbox delete-snapshots`   # Deletes snapshots, either before a given timestamp or by name.
+* `enonic toolbox dump`               # Export data from every repository.
+* `enonic toolbox export`             # Export data for a specified path.
+* `enonic toolbox help`               # Display help information
+* `enonic toolbox import`             # Import data from a named export.
+* `enonic toolbox install-app`        # Install an application from URL or file
+* `enonic toolbox list-snapshots`     # Returns a list of existing snapshots with name and status.
+* `enonic toolbox load`               # Import data from a dump.
+* `enonic toolbox reindex`            # Reindex content in search indices for the given repository and branches.
+* `enonic toolbox reprocess`          # Reprocesses content in the repository.
+* `enonic toolbox restore`            # Restores a snapshot of a previous state of the repository.
+* `enonic toolbox set-read-only`      # Toggle read-only mode for server or single repository
+* `enonic toolbox set-replicas`       # Set the number of replicas in the cluster.
+* `enonic toolbox snapshot`           # Stores a snapshot of the current state of the repository.
+* `enonic toolbox upgrade`            # Upgrade a dump.
+* `enonic toolbox vacuum`             # Removes unused blobs and binaries from blobstore
 
 ## Use cases
 * First time user create and deploy locally new app
