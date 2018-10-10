@@ -62,7 +62,7 @@
 * `enonic sandbox set [sandboxName]`   # Set the default sandbox for the current project
 * `enonic sandbox start [sandboxName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
 * `enonic sandbox stop` # Stop XP  
-* `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro)
+* `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose 
 * `enonic sandbox delete [sandboxName]`   # Delete a sandbox
 * `enonic sandbox logs [sandboxName]`   # Set the default sandbox for the current project
 
@@ -70,8 +70,8 @@
 
 * `enonic project`      # List available project commands
 * `enonic project help [command]`   # Display help page for a specific project command
-* `enonic project ls`   # List all projects in the CLI folder
-* `enonic project set [projectName]`  # Chdir to the project directory   
+* `enonic project ls`   # List all projects in the CLI folder (and point out the current one)
+* `enonic project switch [projectName]`  # Chdir to the project directory   
 * `enonic project new`  # Wizard: Init-app + Chdir + Create sandbox if necessary
 * `enonic project clean [projectName]`  # Gradle clean   
 * `enonic project build [projectName]`  # Gradle build  
