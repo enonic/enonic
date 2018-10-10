@@ -21,7 +21,7 @@
 ## File structure
 
 * Enonic CLI, will create a hidden folder in the user folder to store the XP distributions, homes and projects.
-* ~/enonic-cli
+* ~/.enonic-cli
   * distributions
     * 6.15.0
     * 7.0.0-SNAPSHOT
@@ -40,32 +40,32 @@
 
 ### XP commands
 
-`enonic-cli xp`   # List XP commands
-`enonic-cli xp start [version=latest_release]`   # Start XP. Download if necessary  
-`enonic-cli xp stop` # Stop XP  
-`enonic-cli xp set` # Set default xp version  
-`enonic-cli xp list` # List all xp installations (and point out the default one)  
+* `enonic-cli xp` # List XP commands
+* `enonic-cli xp ls` # List all distributions in the CLI folder (and point out the default one)  
+* `enonic-cli xp start [version=latest_release]`   # Start XP. Download if necessary  
+* `enonic-cli xp stop` # Stop XP  
+* `enonic-cli xp set` # Set default xp version  
 
 ### Home commands
 
-`enonic-cli home`   # List Home commands
-`enonic-cli home new`   # Create a new xp_home (empty folder)  
-`enonic-cli home delete`   # Delete an xp_home directory  
-`enonic-cli home set`   # Set the current xp_home context   
-`enonic-cli home list`   # List the existing xp_home directories
+* `enonic-cli home`   # List Home commands
+* `enonic-cli home ls`   # List all homes in the CLI folder
+* `enonic-cli home new`   # Create a new xp_home (empty folder)  
+* `enonic-cli home delete`   # Delete an xp_home directory  
+* `enonic-cli home set`   # Set the current xp_home context   
 
 ### Project commands
 
-`enonic-cli project`   # List Project commands
-`enonic-cli project new`   # Wizard (-> Init-app)
-`enonic-cli project delete`   # Delete the application directory  
-`enonic-cli project clean`   # Gradle clean   
-`enonic-cli project build`   # Gradle build  
-`enonic-cli project install`   # Gradle install  
-`enonic-cli project deploy`   # Gradle deploy  
-`enonic-cli project set`   # cd to the project directory  
-`enonic-cli project list`   # List all projects  
-`enonic-cli project add [part|service|page]`   # Add part in project app. +Wizard  
+* `enonic-cli project`   # List Project commands
+* `enonic-cli project ls`   # List all projects in the CLI folder
+* `enonic-cli project new`   # Wizard (-> Init-app)
+* `enonic-cli project delete`   # Delete the application directory  
+* `enonic-cli project clean`   # Gradle clean   
+* `enonic-cli project build`   # Gradle build  
+* `enonic-cli project install`   # Gradle install  
+* `enonic-cli project deploy`   # Gradle deploy  
+* `enonic-cli project set`   # cd to the project directory    
+* `enonic-cli project add [part|service|page]`   # Add part in project app. +Wizard  
 
 
 
