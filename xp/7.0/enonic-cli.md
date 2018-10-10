@@ -84,7 +84,6 @@
 * `enonic toolbox delete-snapshots`   # Deletes snapshots, either before a given timestamp or by name.
 * `enonic toolbox dump`               # Export data from every repository.
 * `enonic toolbox export`             # Export data for a specified path.
-* `enonic toolbox help`               # Display help information
 * `enonic toolbox import`             # Import data from a named export.
 * `enonic toolbox install-app`        # Install an application from URL or file
 * `enonic toolbox list-snapshots`     # Returns a list of existing snapshots with name and status.
