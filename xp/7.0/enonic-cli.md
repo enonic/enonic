@@ -62,7 +62,7 @@
 * `enonic sandbox set [sandboxName]`   # Set the sandbox associated to the current project
 * `enonic sandbox start [sandboxName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
 * `enonic sandbox stop` # Stop XP  
-* `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose 
+* `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose to set it for the current project
 * `enonic sandbox delete [sandboxName]`   # Delete a sandbox
 
 ### Project commands
