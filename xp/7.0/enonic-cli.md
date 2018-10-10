@@ -56,14 +56,14 @@
 
 ### Project commands
 
-* `enonic-cli project`   # List Project commands
+* `enonic-cli project`      # List Project commands
 * `enonic-cli project ls`   # List all projects in the CLI folder
-* `enonic-cli project new`   # Wizard (-> Init-app)
-* `enonic-cli project delete`   # Delete the application directory  
-* `enonic-cli project clean`   # Gradle clean   
-* `enonic-cli project build`   # Gradle build  
-* `enonic-cli project install`   # Gradle install  
-* `enonic-cli project deploy`   # Gradle deploy  
+* `enonic-cli project new`  # Wizard (-> Init-app)
+* `enonic-cli project delete [name=current_repository]` # Delete the application directory  
+* `enonic-cli project clean [name=current_repository]`  # Gradle clean   
+* `enonic-cli project build [name=current_repository]`  # Gradle build  
+* `enonic-cli project install [name=current_repository]`# Gradle install  
+* `enonic-cli project deploy [name=current_repository]` # Gradle deploy  
 * `enonic-cli project set`   # cd to the project directory    
 * `enonic-cli project add [part|service|page]`   # Add part in project app. +Wizard  
 
