@@ -57,13 +57,13 @@
 * `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro)
 * `enonic sandbox delete [sandboxName]`   # Delete a sandbox
 * `enonic sandbox set [sandboxName]`   # Set the default sandbox for the current project
+* `enonic sandbox logs [sandboxName]`   # Set the default sandbox for the current project
 
 ### Project commands
 
 * `enonic project`      # List Project commands
 * `enonic project ls`   # List all projects in the CLI folder
 * `enonic project new`  # Wizard: Init-app + Chdir + Create sandbox if necessary
-* `enonic project run [projectName]`  # = `enonic project deploy [projectName]` + `enonic sandbox start`
 * `enonic project clean [projectName]`  # Gradle clean   
 * `enonic project build [projectName]`  # Gradle build  
 * `enonic project install [projectName]`# Gradle build + /api install 
@@ -81,9 +81,10 @@
   * If no running sandbox, sandbox associated to the current project
 
 ## Use cases
-* First time user create and deploy locally new app (Demo effect)
+* First time user create and deploy locally new app
   * `enonic project new`
-  * `enonic project run`
+  * `enonic sandbox start`
+  * `enonic project deploy`
 * First time user create and deploy locally new app (Same in basic steps)
   * `enonic sandbox new`
   * `enonic sandbox start [sandboxName]`
