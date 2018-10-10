@@ -23,6 +23,7 @@
 * Enonic CLI, will create a hidden folder in the user folder to store the XP distributions, homes and projects.
 * ~/.enonic-cli
   * distributions
+    * .enonic-cli (Stores the current running XP distributions
     * 6.15.0
     * 7.0.0-SNAPSHOT
   * homes(sandboxes)
@@ -43,8 +44,7 @@
 * `enonic-cli xp` # List XP commands
 * `enonic-cli xp ls` # List all distributions in the CLI folder (and point out the default one)  
 * `enonic-cli xp start [version=latest_release]`   # Start XP. Download if necessary  
-* `enonic-cli xp stop` # Stop XP  
-* `enonic-cli xp set` # Set default xp version  
+* `enonic-cli xp stop` # Stop XP 
 
 ### Home commands
 
