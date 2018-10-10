@@ -20,7 +20,7 @@
   
 ## File structure
 
-* Enonic CLI, will create a hidden folder in the user folder to store the XP distributions, homes and projects.
+* Enonic CLI, will create a dot folder in the user folder to store the XP distributions, homes and projects.
 * ~/.enonic-cli
   * distributions
     * 6.15.0
