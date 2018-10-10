@@ -82,7 +82,6 @@
 
 ## Use cases
 * First time user create and deploy locally new app
-  * `enonic sandbox start`
   * `enonic project new`
   * `enonic project run`
 * Deploying an app to different homes
