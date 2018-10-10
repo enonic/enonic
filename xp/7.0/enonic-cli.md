@@ -20,7 +20,7 @@
   
 ## File structure
 
-* Enonic CLI, will create a dot folder in the user folder to store the XP distributions, homes and projects.
+* Enonic CLI, will create a dot folder in the user folder to store the XP distributions, sandboxes and projects.
 * ~/.enonic-cli
   * jdks
     * jdk1.8.0_181.jdk (for 6.Y.Z versions)
