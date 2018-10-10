@@ -22,10 +22,13 @@
 
 * Enonic CLI, will create a dot folder in the user folder to store the XP distributions, homes and projects.
 * ~/.enonic-cli
+  * jdks
+    * jdk1.8.0_181.jdk (for 6.Y.Z versions)
   * distributions
-    * 6.15.0
+    * 6.15.2
     * 7.0.0-SNAPSHOT
   * sandboxes
+    * .enonic-cli: running = customer-b
     * default
       * .enonic-cli: xp.version=6.15.1
       * home
@@ -66,7 +69,7 @@
 * `enonic project new`  # Wizard: Init-app + Chdir + Create sandbox if necessary
 * `enonic project clean [projectName]`  # Gradle clean   
 * `enonic project build [projectName]`  # Gradle build  
-* `enonic project install [projectName]`# Gradle build + /api install 
+* `enonic project install [projectName]`# Gradle deployToLocalMAvenRepository
 * `enonic project deploy [projectName]` # Gradle deploy  
 * `enonic project set [projectName]`  # Chdir to the project directory   
 * `enonic project delete [projectName]` # Delete the application directory
@@ -91,6 +94,3 @@
   * `enonic sandbox set new-sandbox`
   * `enonic sandbox start`
   * `enonic project deploy`
-* OPT: Run a cluster locally
-* Run multiple instances of Enonic XP
-* Install app from market
