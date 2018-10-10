@@ -1,6 +1,6 @@
 # Enonic CLI
 
-* As a user, I want to be able to manage my installations, homes and projects from a single command
+* As a user, I want to be able to manage my installations, homes and projects from a command-line interface
 
 ## Use cases
 * First time user create and deploy locally new app
