@@ -48,9 +48,6 @@
 
 ### XP commands
 
-* `enonic xp` # List XP commands
-* `enonic xp ls` # List all distributions in the CLI folder (and point out the running one)
-
 ### Sandbox commands
 
 * `enonic sandbox`   # List Sandbox commands
@@ -83,22 +80,15 @@
   * Running sandbox
   * If no running sandbox, sandbox associated to the current project
 
-## Example of use
-* Install Enonic CLI
-  * brew install enonic-cli
-  * apt-get install enonic-cli
-  * //Or download manually
-* Create a new app
-  * enonic-cli project new
-* Build, deploy the application
-  * enonic-cli project run
-
-
 ## Use cases
 * First time user create and deploy locally new app
-  * enonic-cli project new 
-  * enonic-cli project run
+  * `enonic sandbox start`
+  * `enonic project new`
+  * `enonic project run`
 * Deploying an app to different homes
+  * enonic project deploy
+  * enonic sandbox set customer-b
+  * enonic project deploy
 * Switching between homes and projects
 * Testing a project for a new version of enonic xp
 * OPT: Run a cluster locally
