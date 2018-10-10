@@ -1,10 +1,10 @@
 # Enonic CLI
 
-* As a user, I want to be able to manage my installations, homes and projects from a command-line interface
+* As a user, I want to be able to manage my distributions, homes and projects from a command-line interface
 
 ## Link Project/Sandbox/EnonicXP
 
-* Sandboxes contain an XP home and have a reference to a specific Enonic XP version
+* Sandboxes contain an XP home and have a reference to a specific Enonic XP distribution
 * Project (apps/libs) created with the CLI will have a reference to a sandbox
 * These references will be stored in a file '.enonic-cli' at the root of the Home/Sandbox
 
@@ -53,25 +53,25 @@
 
 ### Sandbox commands
 
-* `enonic sandbox`   # List Sandbox commands
-* `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the running one and the default one)
+* `enonic sandbox`   # List available sandbox commands
+* `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
+* `enonic sandbox set [sandboxName]`   # Set the default sandbox for the current project
 * `enonic sandbox start [sandboxName]`   # Start the sandbox. Create if not existing
 * `enonic sandbox stop` # Stop XP  
 * `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro)
 * `enonic sandbox delete [sandboxName]`   # Delete a sandbox
-* `enonic sandbox set [sandboxName]`   # Set the default sandbox for the current project
 * `enonic sandbox logs [sandboxName]`   # Set the default sandbox for the current project
 
 ### Project commands
 
-* `enonic project`      # List Project commands
+* `enonic project`      # List available project commands
 * `enonic project ls`   # List all projects in the CLI folder
+* `enonic project set [projectName]`  # Chdir to the project directory   
 * `enonic project new`  # Wizard: Init-app + Chdir + Create sandbox if necessary
 * `enonic project clean [projectName]`  # Gradle clean   
 * `enonic project build [projectName]`  # Gradle build  
-* `enonic project install [projectName]`# Gradle deployToLocalMAvenRepository
 * `enonic project deploy [projectName]` # Gradle deploy  
-* `enonic project set [projectName]`  # Chdir to the project directory   
+* `enonic project publish [projectName]`# Gradle publishToMavenLocal or publish
 * `enonic project delete [projectName]` # Delete the application directory
 * `enonic project add (part|service|page|...) [projectName]`      # Wizard: Add part/service/page/... in the project
 * `enonic project remove (part|service|page|...) [projectName]`      # Remove part/service/page/... from the project
