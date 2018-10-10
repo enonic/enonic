@@ -23,17 +23,21 @@
 * Enonic CLI, will create a hidden folder in the user folder to store the XP distributions, homes and projects.
 * ~/.enonic-cli
   * distributions
-    * .enonic-cli (Stores the current running XP distributions
     * 6.15.0
     * 7.0.0-SNAPSHOT
-  * homes(sandboxes)
+  * sandboxes
     * default
+      * .enonic-cli: xp.version=6.15.1
+      * home
     * customer-a
       * .enonic-cli: xp.version=6.15.1
+      * home
     * customer-b
+      * .enonic-cli: xp.version=6.15.2
+      * home
   * projects
     * myapp-a
-      * .enonic-cli: xp.home=customerA
+      * .enonic-cli: xp.sandbox=customer-a
     * office-league
 
 
@@ -43,23 +47,23 @@
 
 * `enonic xp` # List XP commands
 * `enonic xp ls` # List all distributions in the CLI folder (and point out the running one)  
-* `enonic xp start [xpVersion=latest_release]`   # Start XP. Download if necessary  
-* `enonic xp stop` # Stop XP 
 
-### Home commands
+### Sandbox commands
 
-* `enonic home`   # List Home commands
-* `enonic home ls`   # List all homes in the CLI folder (and point out the one associated to the current project) 
-* `enonic home new`   # Wizard: Create a new home (copy the home from the XP version)
-* `enonic home delete`   # Delete an home
-* `enonic home set`   # Set the default home context for the current project
+* `enonic sandbox`   # List Sandbox commands
+* `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the one associated to the current project)
+* `enonic sandbox start [xpVersion=latest_release]`   # Start XP. Download if necessary  
+* `enonic sandbox stop` # Stop XP  
+* `enonic sandbox new`   # Wizard: Create a new sandbox (copy the home from the XP version)
+* `enonic sandbox delete`   # Delete a sandbox
+* `enonic sandbox set`   # Set the default sandbox for the current project
 
 ### Project commands
 
 * `enonic project`      # List Project commands
 * `enonic project ls`   # List all projects in the CLI folder
 * `enonic project new`  # Wizard: Init-app + Chdir
-* `enonic project run [projectName=current_repository]`  # Gradle deploy + Start of the current 
+* `enonic project run [projectName=current_repository]`  # Gradle deploy + Start of the associated Enonic XP if not started
 * `enonic project clean [projectName=current_repository]`  # Gradle clean   
 * `enonic project build [projectName=current_repository]`  # Gradle build  
 * `enonic project install [projectName=current_repository]`# Gradle build + /api install 
@@ -67,6 +71,12 @@
 * `enonic project set [projectName]`                       # Chdir to the project directory   
 * `enonic project delete [projectName=current_repository]` # Delete the application directory
 * `enonic project add (part|service|page|...) `      # Wizard: Add part/service/page/... in the project
+
+### Default
+
+* Default project: Current directory
+* Default home: Home associated to the current directory
+* Default XP:  
 
 
 ## Use cases
