@@ -59,6 +59,7 @@
 * `enonic project`      # List Project commands
 * `enonic project ls`   # List all projects in the CLI folder
 * `enonic project new`  # Wizard: Init-app + Chdir
+* `enonic project run [projectName=current_repository]`  # Gradle deploy + Start of the current 
 * `enonic project clean [projectName=current_repository]`  # Gradle clean   
 * `enonic project build [projectName=current_repository]`  # Gradle build  
 * `enonic project install [projectName=current_repository]`# Gradle build + /api install 
