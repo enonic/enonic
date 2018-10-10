@@ -64,7 +64,6 @@
 * `enonic sandbox stop` # Stop XP  
 * `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose 
 * `enonic sandbox delete [sandboxName]`   # Delete a sandbox
-* `enonic sandbox logs [sandboxName]`   # Set the default sandbox for the current project
 
 ### Project commands
 
