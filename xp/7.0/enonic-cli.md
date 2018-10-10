@@ -83,17 +83,14 @@
   * `enonic project new`
   * `enonic sandbox start`
   * `enonic project deploy`
-* First time user create and deploy locally new app (Same in basic steps)
-  * `enonic sandbox new`
-  * `enonic sandbox start [sandboxName]`
-  * `enonic project new`
+* Deploying an app to a different sandbox
+  * `enonic sandbox set customer-b`
   * `enonic project deploy`
-* Deploying an app to different homes
-  * enonic project deploy
-  * enonic sandbox set customer-b
-  * enonic project deploy
-* Switching between homes and projects
 * Testing a project for a new version of enonic xp
+  * `enonic sandbox new`
+  * `enonic sandbox set new-sandbox`
+  * `enonic sandbox start`
+  * `enonic project deploy`
 * OPT: Run a cluster locally
 * Run multiple instances of Enonic XP
 * Install app from market
