@@ -4,7 +4,7 @@
 
 ## Link Project/Sandbox/EnonicXP
 
-* Sandboxes contain an XP home and have a reference to a Enonic XP version
+* Sandboxes contain an XP home and have a reference to a specific Enonic XP version
 * Project (apps/libs) created with the CLI will have a reference to a sandbox
 * These references will be stored in a file '.enonic-cli' at the root of the Home/Sandbox
 
@@ -54,53 +54,53 @@
 ### Sandbox commands
 
 * `enonic sandbox`   # List Sandbox commands
-* `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
-* `enonic sandbox start [name]`   # Start the sandbox.
+* `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the running one and the default one)
+* `enonic sandbox start [sandboxName]`   # Start the sandbox.
 * `enonic sandbox stop` # Stop XP  
-* `enonic sandbox new`   # Wizard: Create a new sandbox (copy the home from the XP version)
-* `enonic sandbox delete`   # Delete a sandbox
-* `enonic sandbox set`   # Set the default sandbox for the current project
+* `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro)
+* `enonic sandbox delete [sandboxName]`   # Delete a sandbox
+* `enonic sandbox set [sandboxName]`   # Set the default sandbox for the current project
 
 ### Project commands
 
 * `enonic project`      # List Project commands
 * `enonic project ls`   # List all projects in the CLI folder
-* `enonic project new`  # Wizard: Init-app + Chdir
-* `enonic project run [projectName=current_repository]`  # Gradle deploy + Start of the associated Enonic XP if not started
-* `enonic project clean [projectName=current_repository]`  # Gradle clean   
-* `enonic project build [projectName=current_repository]`  # Gradle build  
-* `enonic project install [projectName=current_repository]`# Gradle build + /api install 
-* `enonic project deploy [projectName=current_repository]` # Gradle deploy  
-* `enonic project set [projectName]`                       # Chdir to the project directory   
-* `enonic project delete [projectName=current_repository]` # Delete the application directory
-* `enonic project add (part|service|page|...) `      # Wizard: Add part/service/page/... in the project
+* `enonic project new`  # Wizard: Init-app + Chdir + Create sandbox if necessary
+* `enonic project run [projectName]`  # Gradle deploy + Start of the associated Enonic XP if not started
+* `enonic project clean [projectName]`  # Gradle clean   
+* `enonic project build [projectName]`  # Gradle build  
+* `enonic project install [projectName]`# Gradle build + /api install 
+* `enonic project deploy [projectName]` # Gradle deploy  
+* `enonic project set [projectName]`  # Chdir to the project directory   
+* `enonic project delete [projectName]` # Delete the application directory
+* `enonic project add (part|service|page|...) [projectName]`      # Wizard: Add part/service/page/... in the project
+* `enonic project remove (part|service|page|...) [projectName]`      # Remove part/service/page/... from the project
 
-### Default
+### Default values
 
-* Default project: Current directory
-* Default home: Home associated to the current directory
-* Default XP:  
-
-
-## Use cases
-* First time user create and deploy locally new app
-  * enonic-cli project new //Creates a directory, Cd, Init-app
-  * enonic-cli project deploy //Check if XP and home (downloads if missing and start), Gradle deploy
-* Deploying an app to different homes
-* Switching between homes and projects
-* Testing a project for a new version of enonic xp
-* OPT: Run a cluster locally
-* Run multiple instances of Enonic XP
-* Install app from market
+* projectName: Current directory
+* sandboxName: 
+  * Running sandbox
+  * If no running sandbox, sandbox associated to the current project
 
 ## Example of use
 * Install Enonic CLI
   * brew install enonic-cli
   * apt-get install enonic-cli
   * //Or download manually
-* Start Enonic XP (download if necessary)
-  * enonic-cli xp start 6.15
 * Create a new app
   * enonic-cli project new
-* Build & deploy the application
-  * enonic-cli project deploy
+* Build, deploy the application
+  * enonic-cli project run
+
+
+## Use cases
+* First time user create and deploy locally new app
+  * enonic-cli project new 
+  * enonic-cli project run
+* Deploying an app to different homes
+* Switching between homes and projects
+* Testing a project for a new version of enonic xp
+* OPT: Run a cluster locally
+* Run multiple instances of Enonic XP
+* Install app from market
