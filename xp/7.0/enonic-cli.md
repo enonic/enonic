@@ -105,9 +105,8 @@
   * `enonic project new`
   * `enonic sandbox start`
   * `enonic project deploy`
-* Deploying an app to a different sandbox
-  * `enonic sandbox set customer-b`
-  * `enonic project deploy`
+* Deploying an app to a different server
+  * `enonic project deploy -s customer-b`
 * Testing a project for a new version of enonic xp
   * `enonic sandbox new` //Wizard will propose to associate the new sandbox to the current project
   * `enonic project deploy`
