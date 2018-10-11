@@ -52,12 +52,12 @@
 
 ### Sandbox commands
 
-* `enonic server`   # List available sandbox commands
-* `enonic server help [command]`   # Display help page for a specific sandbox command
-* `enonic server ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
-* `enonic server start [serverName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
-* `enonic server stop [serverName]` # Stop XP  
-* `enonic server new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose to set it for the current project
+* `enonic sandbox`   # List available sandbox commands
+* `enonic sandbox help [command]`   # Display help page for a specific sandbox command
+* `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
+* `enonic sandbox start [serverName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
+* `enonic sandbox stop [serverName]` # Stop XP  
+* `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose to set it for the current project
 * `enonic server delete [sandboxName]`   # Delete a sandbox
 
 ### Project commands
@@ -73,7 +73,7 @@
 * `enonic project add (part|service|page|...)`      # Wizard: Add part/service/page/... in the project
 * `enonic project remove (part|service|page|...)`      # Remove part/service/page/... from the project
 
-### 
+### Misc commands
 
 * `enonic attach -s [sandboxName]` OR `enonic attach -u [serverUrl]` #Sets the target for Management Commands
 
