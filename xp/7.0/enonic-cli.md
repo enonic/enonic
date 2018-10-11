@@ -2,11 +2,11 @@
 
 * As a user, I want to be able to manage my installations, homes and projects from a command-line interface
 
-## Link Project/Sandbox/EnonicXP
+## Link Project/Server/EnonicXP
 
-* Sandboxes contain an XP home and have a reference to a specific Enonic XP distribution
-* Project (apps/libs) created with the CLI will have a reference to a sandbox
-* These references will be stored in a file '.enonic-cli' at the root of the Home/Sandbox
+* Server contain an XP home and have a reference to a specific Enonic XP distribution
+* Project (apps/libs) created with the CLI will have a reference to a server
+* These references will be stored in a file '.enonic' at the root of the Project/Server
 
 ## Code
 * Enonic CLI code will be implemented in Go
@@ -21,64 +21,57 @@
 ## File structure
 
 * Enonic CLI, will create a dot folder in the user folder to store the XP distributions, sandboxes and projects.
-* ~/.enonic-cli
-  * jdks
-    * jdk1.8.0_181.jdk (for 6.Y.Z versions)
+* ~/.enonic
   * distributions
-    * 6.15.2
-    * 7.0.0-SNAPSHOT
-  * sandboxes
-    * .enonic-cli: running = customer-b
+    * 7.0.0-macos
+    * 7.1.0-SNAPSHOT-macos
+  * servers
     * default
-      * .enonic-cli: xp.version=6.15.1
+      * .enonic: distro=7.0.0-macos . running=true
       * home
       * blob
     * customer-a
-      * .enonic-cli: xp.version=6.15.1
+      * .enonic: distro=7.0.0-macos running=false
       * home
       * blob
     * customer-b
-      * .enonic-cli: xp.version=6.15.2
+      * .enonic: distro=7.1.0-macos running=false
       * home
       * blob
-  * projects
-    * myapp-a
-      * .enonic-cli: xp.sandbox=customer-a
-    * office-league
+* gitfolder
+  * myapp-a
+    * .enonic: server=customer-a
+  * office-league
 
 
 ## CLI options
 
 ### Default values
 
-* Default project: Current directory
-* Default sandbox: Sandbox associated to the current project
+* Default server: Server associated to the current project
 
-### Sandbox commands
+### Server commands
 
-* `enonic sandbox`   # List available sandbox commands
-* `enonic sandbox help [command]`   # Display help page for a specific sandbox command
-* `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
-* `enonic sandbox set [sandboxName]`   # Set the sandbox associated to the current project
-* `enonic sandbox start [sandboxName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
-* `enonic sandbox stop` # Stop XP  
-* `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose to set it for the current project
-* `enonic sandbox delete [sandboxName]`   # Delete a sandbox
+* `enonic server`   # List available sandbox commands
+* `enonic server help [command]`   # Display help page for a specific sandbox command
+* `enonic server ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
+* `enonic server start [serverName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
+* `enonic server stop [serverName]` # Stop XP  
+* `enonic server new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose to set it for the current project
+* `enonic server delete [sandboxName]`   # Delete a sandbox
 
 ### Project commands
 
 * `enonic project`      # List available project commands
 * `enonic project help [command]`   # Display help page for a specific project command
-* `enonic project ls`   # List all projects in the CLI folder (and point out the current one)
-* `enonic project set [projectName]`  # Chdir to the project directory   
-* `enonic project new`  # Wizard: Init-app + Chdir + Create sandbox if necessary
-* `enonic project clean [projectName]`  # Gradle clean   
-* `enonic project build [projectName]`  # Gradle build  
-* `enonic project deploy [projectName]` # Gradle deploy  
-* `enonic project publish [projectName]`# Gradle publishToMavenLocal or publish
-* `enonic project delete [projectName]` # Delete the application directory
-* `enonic project add (part|service|page|...) [projectName]`      # Wizard: Add part/service/page/... in the project
-* `enonic project remove (part|service|page|...) [projectName]`      # Remove part/service/page/... from the project
+* `enonic project server [serverName]`   # Set the default server associated to the current project
+* `enonic project new`  # Wizard: Init-app
+* `enonic project clean `  # Gradle clean   
+* `enonic project build`  # Gradle build  
+* `enonic project deploy` # Create sandbox if necessary + Gradle deploy
+* `enonic project publish`# Gradle publishToMavenLocal or publish
+* `enonic project add (part|service|page|...)`      # Wizard: Add part/service/page/... in the project
+* `enonic project remove (part|service|page|...)`      # Remove part/service/page/... from the project
 
 ### Toolbox commands
 
@@ -99,6 +92,19 @@
 * `enonic toolbox snapshot`           # Stores a snapshot of the current state of the repository.
 * `enonic toolbox upgrade`            # Upgrade a dump.
 * `enonic toolbox vacuum`             # Removes unused blobs and binaries from blobstore
+
+
+
+* `enonic server`   # List available sandbox commands
+* `enonic server help [command]`   # Display help page for a specific sandbox command
+* `enonic server ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
+* `enonic server start [serverName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
+* `enonic server stop [serverName]` # Stop XP  
+* `enonic server new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose to set it for the current project
+* `enonic server delete [sandboxName]`   # Delete a sandbox
+
+
+
 
 ## Use cases
 * First time user create and deploy locally new app
