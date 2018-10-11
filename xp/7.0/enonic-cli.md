@@ -27,7 +27,7 @@
     * 7.1.0-SNAPSHOT-macos
   * servers
     * default
-      * .enonic: distro=7.0.0-macos . running=true
+      * .enonic: distro=7.0.0-macos . running=true  
       * home
       * blob
     * customer-a
@@ -50,7 +50,7 @@
 
 * Default server: Server associated to the current project
 
-### Server commands
+### Sandbox commands
 
 * `enonic server`   # List available sandbox commands
 * `enonic server help [command]`   # Display help page for a specific sandbox command
@@ -73,46 +73,46 @@
 * `enonic project add (part|service|page|...)`      # Wizard: Add part/service/page/... in the project
 * `enonic project remove (part|service|page|...)`      # Remove part/service/page/... from the project
 
-### Toolbox commands
+### 
 
-* `enonic toolbox`      # List available toolbox commands
-* `enonic toolbox help [command]`   # Display help page for a specific toolbox command
-* `enonic toolbox delete-snapshots`   # Deletes snapshots, either before a given timestamp or by name.
-* `enonic toolbox dump`               # Export data from every repository.
-* `enonic toolbox export`             # Export data for a specified path.
-* `enonic toolbox import`             # Import data from a named export.
-* `enonic toolbox install-app`        # Install an application from URL or file
-* `enonic toolbox list-snapshots`     # Returns a list of existing snapshots with name and status.
-* `enonic toolbox load`               # Import data from a dump.
-* `enonic toolbox reindex`            # Reindex content in search indices for the given repository and branches.
-* `enonic toolbox reprocess`          # Reprocesses content in the repository.
-* `enonic toolbox restore`            # Restores a snapshot of a previous state of the repository.
-* `enonic toolbox set-read-only`      # Toggle read-only mode for server or single repository
-* `enonic toolbox set-replicas`       # Set the number of replicas in the cluster.
-* `enonic toolbox snapshot`           # Stores a snapshot of the current state of the repository.
-* `enonic toolbox upgrade`            # Upgrade a dump.
-* `enonic toolbox vacuum`             # Removes unused blobs and binaries from blobstore
+* `enonic attach -s [sandboxName]` OR `enonic attach -u [serverUrl]` #Sets the target for Management Commands
 
 
+### Management Commands
 
-* `enonic server`   # List available sandbox commands
-* `enonic server help [command]`   # Display help page for a specific sandbox command
-* `enonic server ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
-* `enonic server start [serverName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
-* `enonic server stop [serverName]` # Stop XP  
-* `enonic server new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose to set it for the current project
-* `enonic server delete [sandboxName]`   # Delete a sandbox
+* `enonic snapshot ls`           # Returns a list of existing snapshots with name and status.
+* `enonic snapshot new`          # Stores a snapshot of the current state of the repository.
+* `enonic snapshot restore`          # Restores a snapshot of a previous state of the repository.
+* `enonic snapshot delete`       # Deletes snapshots, either before a given timestamp or by name.
 
+* `enonic dump new`                # Export data from every repository.
+* `enonic dump upgrade`            # Upgrade a dump.
+* `enonic dump load`               # Import data from a dump.
 
+* `enonic export new`              # Export data for a specified path.
+* `enonic export load`             # Import data from a named export.
+
+* `enonic app install`  # Install an application from URL or file
+    
+* `enonic repo reindex`            # Reindex content in search indices for the given repository and branches.
+* `enonic repo read-only`      # Toggle read-only mode for server or single repository
+
+* `enonic cms reprocess`          # Reprocesses content in the repository.
+
+* `enonic cluster replicas`       # Set the number of replicas in the cluster.
+
+* `enonic vacuum`             # Removes unused blobs and binaries from blobstore
 
 
 ## Use cases
 * First time user create and deploy locally new app
   * `enonic project new`
-  * `enonic sandbox start`
   * `enonic project deploy`
 * Deploying an app to a different server
   * `enonic project deploy -s customer-b`
 * Testing a project for a new version of enonic xp
   * `enonic sandbox new` //Wizard will propose to associate the new sandbox to the current project
   * `enonic project deploy`
+* Taking a snapshot of a sandbox
+  * `enonic attach -s [sandboxName]` OR `enonic attach -u [serverUrl]`
+  * `enonic snapshot`
