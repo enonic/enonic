@@ -58,7 +58,7 @@
 * `enonic sandbox start [serverName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
 * `enonic sandbox stop [serverName]` # Stop XP  
 * `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose to set it for the current project
-* `enonic server delete [sandboxName]`   # Delete a sandbox
+* `enonic sandbox delete [serverName]`   # Delete a sandbox
 
 ### Project commands
 
