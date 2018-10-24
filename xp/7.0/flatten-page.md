@@ -1,0 +1,1 @@
+# Flatten page structure
