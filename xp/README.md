@@ -26,8 +26,8 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 ## Q1-2017
 
-* [Named tasks](features/named-tasks.md)
-* [ElasticSearch 2.4 upgrade](features/elastic-upgrade.md)
+* ~~[Named tasks](features/named-tasks.md)~~
+* ~~[ElasticSearch 2.4 upgrade](features/elastic-upgrade.md)~~
 * Improve content life-cycle support
 * Save as Page Template
 
@@ -47,7 +47,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [ ] [Improved version storage](7.0/improved-version-storage.md)
 - [ ] [HTML Area model](7.0/html-area-model.md)
 - [ ] [Enonic CLI](7.0/enonic-cli.md)
-- [ ] [Request filters](https://enonic.zendesk.com/agent/tickets/2273)
+- [ ] [Request filters](7.0/request-filter.md)
 - [ ] Kubernetes (RMY)
 - [ ] [Image/CSS styles in HTML Area](https://github.com/enonic/enonic/blob/master/xp/features/image-styles.md)
 - [ ] New user store/ID provider model
