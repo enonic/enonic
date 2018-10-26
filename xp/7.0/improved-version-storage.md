@@ -12,4 +12,5 @@
 ### Requirements
 
 * Blobstore implementations should have their method getRecord/addRecord/removeRecord/list have an additional RepositoryId parameter
-* The 
+* Blobstore implementations should have a new method deleteRepository(RepositoryId)
+* Record in file blobstore should have the following path [repositoryId]/[segment]/[blobKey.substring(0,2)]/[blobKey.substring(2,4)]/[blobKey]
