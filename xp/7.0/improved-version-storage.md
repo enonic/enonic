@@ -17,4 +17,5 @@
   * A new method deleteRepository(RepositoryId)
   * A new method listRepositories()
 * Blob records in file blobstore should have the following path [repositoryId]/[segment]/[blobKey.substring(0,2)]/[blobKey.substring(2,4)]/[blobKey]
+* repoLib.delete will have two 
 * New vacuum task (executed first), removing blob for deleted (index deleted) repositories
