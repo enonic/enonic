@@ -31,6 +31,10 @@
 * Version should be identified by a UUID independent from the blobKey
 * Node blobs should not contain the timestamp.
 * Rename/move will only update versionID, timestamp and path in indexes (no blob modification)
+* Vacuum should be update to handle this new segment
 
 ### Requirements
 
+* New default required blob segment: index-config
+* In ES index storage, the type version has the following properties: "versionid", "nodeblobkey", "indexconfigblobkey", "nodeid", "nodepath", "timestamp"
+* In ES index storage, the type branch has the following properties: "versionid", "nodeblobkey", "indexconfigblobkey", "branch", "nodeid", "path", "timestamp", "state"
