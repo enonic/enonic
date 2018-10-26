@@ -38,3 +38,5 @@
 * New default required blob segment: index-config
 * In ES index storage, the type version has the following properties: "versionid", "nodeblobkey", "indexconfigblobkey", "nodeid", "path", "timestamp"
 * In ES index storage, the type branch has the following properties: "versionid", "nodeblobkey", "indexconfigblobkey", "branch", "nodeid", "path", "timestamp", "state"
+* Version ID is a UUID (similar to NodeId)
+* NodeBlobKey and IndexConfigBlobKey are BlobKeys (hash of their content)
