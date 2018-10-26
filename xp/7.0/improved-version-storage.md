@@ -13,9 +13,11 @@
 ### Requirements
 
 * Blobstore implementations should have
-  * Their method getRecord/addRecord/removeRecord/list have an additional RepositoryId parameter before the segment
+  * Their methods getRecord/addRecord/removeRecord/list have an additional RepositoryId parameter before the segment
   * A new method deleteRepository(RepositoryId)
   * A new method listRepositories()
+* CachingBlobStore implementations should have
+  * Their method invalidate have an additional RepositoryId parameter before the segment
 * Blob records in file blobstore should have the following path [repositoryId]/[segment]/[blobKey.substring(0,2)]/[blobKey.substring(2,4)]/[blobKey]
 * TBD: repoLib.delete will have two parameters:
   * repoId //Mandatory
