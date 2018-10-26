@@ -4,7 +4,7 @@
 * [2018-09-27 - Storage improvements meetings - Brainstorming](http://wiki.enonic.com/display/dev/2018-09-27+-+Storage+improvements+meetings+-+Brainstorming)
 * [2018-09-27 - Storage improvements meetings](http://wiki.enonic.com/display/dev/2018-09-27+-+Storage+improvements+meetings)
 
-## Epic1: Divide blobstore segments by repository
+## Epic1: Blobstore segments divided by repository
 
 * The blobstore segments should be divided by repository
 * TBD: As a controller developer, I should be able to delete entirely (index+blob) a repository
@@ -23,3 +23,14 @@
   * repoId //Mandatory
   * includeBlobs //Optional. Defaults to false
 * New vacuum task (executed first), removing blob for deleted (index deleted) repositories
+
+
+## Epic2: Improved node version model
+
+* The IndexConfig should be stored outside of the node blob.
+* Version should be identified by a UUID independent from the blobKey
+* Node blobs should not contain the timestamp.
+* Rename/move will only update versionID, timestamp and path in indexes (no blob modification)
+
+### Requirements
+
