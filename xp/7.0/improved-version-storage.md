@@ -40,3 +40,4 @@
 * In ES index storage, the type branch has the following properties: "versionid", "nodeblobkey", "indexconfigblobkey", "branch", "nodeid", "path", "timestamp", "state"
 * Version ID is a UUID (similar to NodeId)
 * NodeBlobKey and IndexConfigBlobKey are BlobKeys (hash of their content)
+* Node blob do not contain the IndexConfig or timestamp
