@@ -44,7 +44,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [x] [Thymeleaf and Mustache to separate libs](7.0/mustache-thymeleaf.md)
 - [x] [Data migration](7.0/data-migration.md)
 - [x] [Java 11 & ES Upgrade](7.0/java-11.md)
-- [ ] [Improved version storage](7.0/improved-version-storage.md)
+- [ ] [Improved storage](7.0/improved-version-storage.md)
 - [ ] [HTML Area model](7.0/html-area-model.md)
 - [ ] [Enonic CLI](7.0/enonic-cli.md)
 - [ ] [Request filters](7.0/request-filter.md)
