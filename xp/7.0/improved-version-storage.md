@@ -11,8 +11,9 @@
 
 ### Requirements
 
-* Blobstores should used Segments (collection of Segment) instead of Segment.
-* In upper levels, these segments should be a couple of segments: repository ID and blob type.
+* Blobstore Segments should have the possibilities to have multiple levels.
+* Adapt Blobstore implementation to handle this fact
+* In upper levels, the segments should be a couple of level: repository ID and blob type.
 * Blob records in file blobstore should have the following path [repositoryId]/[blobType]/[blobKey.substring(0,2)]/[blobKey.substring(2,4)]/[blobKey]
 * New vacuum task (executed first), removing blob for deleted (index deleted) repositories
 
