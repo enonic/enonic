@@ -4,22 +4,17 @@
 * [2018-09-27 - Storage improvements meetings - Brainstorming](http://wiki.enonic.com/display/dev/2018-09-27+-+Storage+improvements+meetings+-+Brainstorming)
 * [2018-09-27 - Storage improvements meetings](http://wiki.enonic.com/display/dev/2018-09-27+-+Storage+improvements+meetings)
 
-## Epic1: Blobstore segments divided by repository
+## Epic1: Blobstore - Segmentation by repository
 
-* The blobstore segments should be divided by repository
+* The blobstore should be segmented by repository
 * Vacuum should have an additional task (executed first), removing blob for deleted (index deleted) repositories
 
 ### Requirements
 
-* Blobstore implementations should have
-  * Their methods getRecord/addRecord/removeRecord/list have an additional RepositoryId parameter before the segment
-  * A new method deleteRepository(RepositoryId)
-  * A new method listRepositories()
-* CachingBlobStore implementations should have
-  * Their method invalidate have an additional RepositoryId parameter before the segment
-* Blob records in file blobstore should have the following path [repositoryId]/[segment]/[blobKey.substring(0,2)]/[blobKey.substring(2,4)]/[blobKey]
+* Blobstores should used Segments (collection of Segment) instead of Segment.
+* In upper levels, these segments should be a couple of segments: repository ID and blob type.
+* Blob records in file blobstore should have the following path [repositoryId]/[blobType]/[blobKey.substring(0,2)]/[blobKey.substring(2,4)]/[blobKey]
 * New vacuum task (executed first), removing blob for deleted (index deleted) repositories
-
 
 ## Epic2: Improved node version model
 
