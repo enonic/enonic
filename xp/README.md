@@ -52,10 +52,11 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [ ] [Image/CSS styles in HTML Area](https://github.com/enonic/enonic/blob/master/xp/features/image-styles.md)
 - [ ] New user store/ID provider model
 - [ ] Principal value type
-- [ ] Flatten page structure (ARO)
+- [ ] [Flatten page structure](https://github.com/enonic/xp/issues/6649)
 - [ ] Query - Consistent path handling
 - [ ] 7.0 backend backlog
 - [ ] Removal of all backwards compatibility hacks
+- [ ] Remove app-contentstudio from the XP distro and release it on Market
 
 ## 7.1
 - [ ] [Automatic data upgrade](7.0/automatic-data-upgrade.md)
