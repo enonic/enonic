@@ -3,7 +3,7 @@
 ## Prelimary meetings
 * [2018-09-27 - Storage improvements meetings - Brainstorming](http://wiki.enonic.com/display/dev/2018-09-27+-+Storage+improvements+meetings+-+Brainstorming)
 * [2018-09-27 - Storage improvements meetings](http://wiki.enonic.com/display/dev/2018-09-27+-+Storage+improvements+meetings)
-* [2018-09-27 - Storage improvements meetings](http://wiki.enonic.com/display/dev/2018-11-05+-+Storage+improvement)
+* [2018-11-05 - Storage improvements meetings](http://wiki.enonic.com/display/dev/2018-11-05+-+Storage+improvement)
 
 ## Epic1: Blobstore - Segmentation by repository
 
