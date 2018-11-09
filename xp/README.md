@@ -41,18 +41,18 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 ## 7.0
 
-- [x] [Thymeleaf and Mustache to separate libs](7.0/mustache-thymeleaf.md)
-- [x] [Data migration](7.0/data-migration.md)
-- [x] [Java 11 & ES Upgrade](7.0/java-11.md)
-- [ ] [Improved storage](7.0/improved-version-storage.md)
-- [ ] [HTML Area model](7.0/html-area-model.md)
-- [ ] [Enonic CLI](7.0/enonic-cli.md)
-- [ ] [Request filters](7.0/request-filter.md)
+- [x] [Thymeleaf and Mustache to separate libs](7.0/mustache-thymeleaf.md) (GRI)
+- [x] [Data migration](7.0/data-migration.md) (GRI)
+- [x] [Java 11 & ES Upgrade](7.0/java-11.md) (ARO/GRI)
+- [ ] [Improved storage](7.0/improved-version-storage.md) (GRI)
+- [ ] [HTML Area model](7.0/html-area-model.md) (GRI)
+- [ ] [Enonic CLI](7.0/enonic-cli.md) (ARO/GRI)
+- [ ] [Request filters](7.0/request-filter.md) (ARO)
 - [ ] Kubernetes (RMY)
-- [ ] [Image/CSS styles in HTML Area](https://github.com/enonic/enonic/blob/master/xp/features/image-styles.md)
+- [ ] [Image/CSS styles in HTML Area](https://github.com/enonic/enonic/blob/master/xp/features/image-styles.md) (ASE)
 - [ ] New user store/ID provider model
 - [ ] Principal value type
-- [ ] [Flatten page structure](https://github.com/enonic/xp/issues/6649)
+- [ ] [Flatten page structure](https://github.com/enonic/xp/issues/6649) (ARO)
 - [ ] Query - Consistent path handling
 - [ ] 7.0 backend backlog
 - [ ] Removal of all backwards compatibility hacks
