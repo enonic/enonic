@@ -27,17 +27,18 @@
     * 7.1.0-SNAPSHOT-macos
   * sandboxes
     * default
-      * .enonic: distro=7.0.0-macos . running=true  
+      * .enonic: distro=7.0.0-macos 
       * home
       * blob
     * customer-a
-      * .enonic: distro=7.0.0-macos running=false
+      * .enonic: distro=7.0.0-macos
       * home
       * blob
     * customer-b
-      * .enonic: distro=7.1.0-macos running=false
+      * .enonic: distro=7.1.0-macos
       * home
       * blob
+    * .enonic: running=customer-a
 * gitfolder
   * myapp-a
     * .enonic: sandbox=customer-a
