@@ -15,7 +15,7 @@
 * Blobstore Segments should have the possibilities to have multiple levels.
 * In upper levels, the segments should be a couple of level: repository ID and blob type.
 * Blob records in file blobstore should have the following path [repositoryId]/[blobType]/[blobKey.substring(0,2)]/[blobKey.substring(2,4)]/[blobKey]
-* New vacuum task (executed first), removing blob for deleted (index deleted) repositories
+* New vacuum task (executed first), removing blob segments for deleted (index deleted) repositories
 
 ## Epic2: Improved node version model
 
