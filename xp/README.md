@@ -50,10 +50,10 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [ ] [Request filters](7.0/request-filter.md) (ARO)
 - [ ] Kubernetes (RMY)
 - [ ] [Image/CSS styles in HTML Area](https://github.com/enonic/enonic/blob/master/xp/features/image-styles.md) (ASE)
-- [ ] New user store/ID provider model
+- [ ] New user store/ID provider model (GRI)
 - [ ] Principal value type
 - [ ] [Flatten page structure](https://github.com/enonic/xp/issues/6649) (ARO)
-- [ ] Query - Consistent path handling
+- [ ] Query - Consistent path handling (GRI)
 - [ ] 7.0 backend backlog
 - [ ] Removal of all backwards compatibility hacks
 - [ ] Remove app-contentstudio from the XP distro and release it on Market
