@@ -2,11 +2,11 @@
 
 * As a user, I want to be able to manage my installations, homes and projects from a command-line interface
 
-## Link Project/Server/EnonicXP
+## Link Project/Sandbox/EnonicXP
 
-* Server contain an XP home and have a reference to a specific Enonic XP distribution
-* Project (apps/libs) created with the CLI will have a reference to a server
-* These references will be stored in a file '.enonic' at the root of the Project/Server
+* Sandbox contain an XP home and have a reference to a specific Enonic XP distribution
+* Project (apps/libs) created with the CLI will have a reference to a sandbox
+* These references will be stored in a file '.enonic' at the root of the Project/Sandbox
 
 ## Code
 * Enonic CLI code will be implemented in Go
@@ -25,7 +25,7 @@
   * distributions
     * 7.0.0-macos
     * 7.1.0-SNAPSHOT-macos
-  * servers
+  * sandboxes
     * default
       * .enonic: distro=7.0.0-macos . running=true  
       * home
@@ -40,7 +40,7 @@
       * blob
 * gitfolder
   * myapp-a
-    * .enonic: server=customer-a
+    * .enonic: sandbox=customer-a
   * office-league
 
 
@@ -48,23 +48,23 @@
 
 ### Default values
 
-* Default server: Server associated to the current project
+* Default sandbox: Sandbox associated to the current project
 
 ### Sandbox commands
 
 * `enonic sandbox`   # List available sandbox commands
 * `enonic sandbox help [command]`   # Display help page for a specific sandbox command
 * `enonic sandbox ls`   # List all sandboxes in the CLI folder (and point out the running one and the one associated to the current project)
-* `enonic sandbox start [serverName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
-* `enonic sandbox stop [serverName]` # Stop XP  
+* `enonic sandbox start [sandboxName]`   # Start the sandbox (enonic distro pointing to this sandbox home). Create if not existing
+* `enonic sandbox stop [sandboxName]` # Stop XP  
 * `enonic sandbox new`   # Wizard: Create a new sandbox (Download XP distro if necessary, copy the home from the XP distro). Propose to set it for the current project
-* `enonic sandbox delete [serverName]`   # Delete a sandbox
+* `enonic sandbox delete [sandboxName]`   # Delete a sandbox
 
 ### Project commands
 
 * `enonic project`      # List available project commands
 * `enonic project help [command]`   # Display help page for a specific project command
-* `enonic project server [serverName]`   # Set the default server associated to the current project
+* `enonic project sandbox [sandboxName]`   # Set the default sandbox associated to the current project
 * `enonic project new`  # Wizard: Init-app
 * `enonic project clean `  # Gradle clean   
 * `enonic project build`  # Gradle build  
@@ -75,7 +75,7 @@
 
 ### Misc commands
 
-* `enonic attach -s [sandboxName]` OR `enonic attach -u [serverUrl]` #Sets the target for Management Commands
+* `enonic attach -s [sandboxName]` OR `enonic attach -u [sandboxUrl]` #Sets the target for Management Commands
 
 
 ### Management Commands
@@ -95,7 +95,7 @@
 * `enonic app install`  # Install an application from URL or file
     
 * `enonic repo reindex`            # Reindex content in search indices for the given repository and branches.
-* `enonic repo read-only`      # Toggle read-only mode for server or single repository
+* `enonic repo read-only`      # Toggle read-only mode for sandbox or single repository
 
 * `enonic cms reprocess`          # Reprocesses content in the repository.
 
@@ -108,11 +108,11 @@
 * First time user create and deploy locally new app
   * `enonic project new`
   * `enonic project deploy`
-* Deploying an app to a different server
+* Deploying an app to a different sandbox
   * `enonic project deploy -s customer-b`
 * Testing a project for a new version of enonic xp
   * `enonic sandbox new` //Wizard will propose to associate the new sandbox to the current project
   * `enonic project deploy`
 * Taking a snapshot of a sandbox
-  * `enonic attach -s [sandboxName]` OR `enonic attach -u [serverUrl]`
+  * `enonic attach -s [sandboxName]` OR `enonic attach -u [sandboxUrl]`
   * `enonic snapshot`
