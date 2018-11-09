@@ -20,7 +20,7 @@
   
 ## File structure
 
-* Enonic CLI, will create a dot folder in the user folder to store the XP distributions, sandboxes and projects.
+* Enonic CLI, will create a dot folder in the user folder to store the XP distributions and sandboxes.
 * ~/.enonic
   * distributions
     * 7.0.0-macos
