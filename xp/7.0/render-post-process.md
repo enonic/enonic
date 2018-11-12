@@ -29,7 +29,11 @@ Notes:
 ### Page Contributions
 
 - Iterates over contributions that have been set in the Response object
-- Page contributions can be added by: Page controller, Part controller, Layout controller, response processors
+- Page contributions can be added by: 
+  + Page controller
+  + Part controller
+  + Layout controller
+  + Response processors
 - Injects contributions (strings) into 4 different points: 
   + headBegin: After the \<head> opening tag
   + headEnd: Before the \</head> closing tag
