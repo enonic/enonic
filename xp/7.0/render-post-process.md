@@ -18,8 +18,8 @@ What Post process does:
 
 
 ### Post Process Instructions
-Existing PostProcessInstruction types:
-- _Component instruction_: expands to render a component (part or layout)
+Existing Post Process Instruction types:
+- _Component instruction_: expands to render a component (Part or Layout)
 - _Macro instruction_: expands to render a macro
 
 Notes:
