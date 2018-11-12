@@ -73,5 +73,5 @@ Executes response-processor scripts found in all the applications of a Site.
 2. Page Contributions
 
 ## Response property switches
-- `postProcess` (default true) : instructions and page contributions
-- `applyFilters` (default true) : execute response processors
+- `postProcess` (default true) : If set to `false` it will skip Post process instructions and Page contributions
+- `applyFilters` (default true) : If set to `false` it will skip Response-processors
