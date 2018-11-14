@@ -40,3 +40,5 @@
 * Node blobs should not contain the timestamp.
 * Rename/move will only update versionID, timestamp and path in indexes (no blob modification)
 
+## Epic5: Vacuum old versions
+
