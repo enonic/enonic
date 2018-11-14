@@ -41,4 +41,7 @@
 * Rename/move will only update versionID, timestamp and path in indexes (no blob modification)
 
 ## Epic5: Vacuum old versions
+TBD
+* Vacuum should allow to delete versions for node still present
+** It could be based on a number max of versions or a max age version
 
