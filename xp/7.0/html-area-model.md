@@ -8,5 +8,5 @@
 
 ## To be discussed
 
-Discuss if should be part of the dump migration or if we need to add a step "reprocess" when migrating to 7.0
+Discuss "reprocess" when migrating to 7.0
 
