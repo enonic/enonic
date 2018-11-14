@@ -22,19 +22,19 @@
 
 ### Requirements
 * Version ID is a UUID (similar to NodeId)
-* In ES index storage, the type version has the following properties: "versionid", "blobkey", "nodeid", "nodepath", "timestamp"
-* In ES index storage, the type branch has the following properties: "versionid", "blobkey", "branch", "nodeid", "path", "timestamp", "state"
+* In ES index storage, the type version has the following properties: "versionid", "blobkey", "nodepath", "nodeid", "timestamp"
+* In ES index storage, the type branch has the following properties: "versionid", "blobkey", "path", "nodeid", "timestamp", "branch", "state"
 
 ## Epic3: Extract IndexConfig (Apply to Permissions also?)
 * The IndexConfig should be stored outside of the node blob.
-* Vacuum should be update to handle this new segment
-* Node blob do not contain the IndexConfig
+* Vacuum should be updated to handle this new segment
 
 ### Requirements
-* New default required blob segment: index-config
-* In ES index storage, the type version has the following properties: "versionid", "blobkey", "nodeid", "nodepath", "timestamp", "indexconfigkey"
-* In ES index storage, the type branch has the following properties: "versionid", "blobkey", "indexconfigkey", "branch", "nodeid", "path", "timestamp", "state"
+* New default required blob segment: idxcfg
+* In ES index storage, the type version has the following properties: "versionid", "blobkey", "indexconfigkey", "nodepath", "nodeid", "timestamp"
+* In ES index storage, the type branch has the following properties: "versionid", "blobkey", "indexconfigkey", "path", "nodeid", "timestamp", "branch", "state"
 * "indexconfigkey" is a blob key: a hash of its content
+* Task deleting idxcfg not used
 
 ## Epic4: Move as MetaData update
 * Node blobs should not contain the timestamp.
