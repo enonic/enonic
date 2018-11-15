@@ -3,7 +3,7 @@
 
 ## Rendering Post-Process
 
-It is a part of the rendering that is executed for HTML content.
+Post-Process is a part of the rendering that is executed for HTML content.
 
 It is executed at the end of:
 - **Page** rendering
@@ -18,7 +18,7 @@ What Post process does:
 
 
 ### Post Process Instructions
-Existing Post Process Instruction types:
+Currently there are 2 Post Process Instruction types:
 - _Component instruction_: expands to render a component (Part or Layout)
 - _Macro instruction_: expands to render a macro
 
@@ -49,6 +49,8 @@ Notes:
 
 Executes response-processor scripts found in all the applications of a Site.
 
+Response processors are located in the app directory `src/main/resources/site/processors/<name>.js`
+
 - The processors are executed in order. 
 - Every processor receives the current Request and Response, and returns a new Response
 - A processor can set `applyFilters` to false in its response to skip all other processors.
@@ -72,6 +74,6 @@ Executes response-processor scripts found in all the applications of a Site.
 1. Post process Instructions
 2. Page Contributions
 
-## Response property switches
+## Response object property switches
 - `postProcess` (default true) : If set to `false` it will skip Post process instructions and Page contributions
 - `applyFilters` (default true) : If set to `false` it will skip Response-processors
