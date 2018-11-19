@@ -1,3 +1,8 @@
+# Implemented solution
+See Page serialization implemented here: https://github.com/enonic/xp/issues/6697
+Changes to JavaScript JSON serialization here: https://github.com/enonic/xp/issues/6652
+----
+
 # Flatten page structure
 
 Currently the content page object is serialized as a tree structure when it is stored.
