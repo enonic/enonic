@@ -5,7 +5,7 @@
 
 ----
 
-# Flatten page structure
+# Flatten page structure (initial discussion)
 
 Currently the content page object is serialized as a tree structure when it is stored.
 This tree structure makes it difficult to create search queries looking for values in components that are deeply nested.
