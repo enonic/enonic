@@ -100,7 +100,7 @@ Normally these component instructions will appear in Page and Layout HTML view f
 
 The XP Thymeleaf library adds an extension to simplify component rendering. 
 
-By setting the `data-portal-component` or `portal:component` attribute, it will generate the Post Process Instruction to render the component. 
+By setting the `data-portal-component` or `portal:component` attribute in any HTML tag, it will generate the Post Process Instruction to render the component. 
 
 These tags will be converted by Thymeleaf:
 
