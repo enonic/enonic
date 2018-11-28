@@ -94,6 +94,8 @@ For example, this will indicate rendering of the component with path /main/0 :
 
 ```<!--#COMPONENT /main/0 -->```
 
+Normally these component instructions will appear in Page and Layout HTML view files.
+
 ### Thymeleaf
 
 The XP Thymeleaf library adds an extension to simplify component rendering. 
