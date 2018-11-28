@@ -112,7 +112,7 @@ Into this (assuming component.path == '/main/0'):
 
 ```<!--#COMPONENT /main/0 -->```
 
-### Mustache and other template engines
+### Mustache and others
 
 Mustache and other template engines do not have the built-in support that Thymeleaf has. In that case we should just add the HTML comment tag for the Post Process Instruction in the Mustache template: 
 
