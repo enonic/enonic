@@ -74,10 +74,12 @@
 * `enonic project add (part|service|page|...)`      # Wizard: Add part/service/page/... in the project
 * `enonic project remove (part|service|page|...)`      # Remove part/service/page/... from the project
 
-### Misc commands
+### Remote Commands
 
-* `enonic attach -s [sandboxName]` OR `enonic attach -u [sandboxUrl]` #Sets the target for Management Commands
-
+* `enonic remote ls` #Lists the tracked installations. By default only https://localhost:8080 is present
+* `enonic remote add` #Adds a tracked installation
+* `enonic remote remove` #Removes a tracked installation
+* `enonic remote set` #Sets the default installation to be used by requests commands
 
 ### Management Commands
 
