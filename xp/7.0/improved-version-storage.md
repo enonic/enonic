@@ -6,7 +6,7 @@
 * [2018-11-05 - Storage improvements meetings](http://wiki.enonic.com/display/dev/2018-11-05+-+Storage+improvement)
 
 ## Epic1: Blobstore - Segmentation by repository
-
+https://github.com/enonic/xp/issues/6708
 * The blobstore should be segmented by repository
 * Vacuum should have an additional task (executed first), removing blob for deleted (index deleted) repositories
 
