@@ -18,6 +18,7 @@ https://github.com/enonic/xp/issues/6708
 * New vacuum task (executed first), removing blob segments for deleted (index deleted) repositories
 
 ## Epic2: UUID Version ID
+https://github.com/enonic/xp/issues/6744
 * Version should be identified by a UUID independent from the blobKey
 
 ### Requirements
