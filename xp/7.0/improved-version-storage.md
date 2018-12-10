@@ -25,7 +25,12 @@
 * In ES index storage, the type version has the following properties: "versionid", "blobkey", "nodepath", "nodeid", "timestamp"
 * In ES index storage, the type branch has the following properties: "versionid", "blobkey", "path", "nodeid", "timestamp", "branch", "state"
 
-## Epic3: Extract IndexConfig (Apply to Permissions also?)
+## Epic3: Timestamp removal from blobs
+https://github.com/enonic/xp/issues/6806
+* Node blobs should not contain the timestamp.
+* Rename/move will only update versionID, timestamp and path in indexes (no blob modification)
+
+## Epic4: Extract IndexConfig (Apply to Permissions also?)
 * The IndexConfig should be stored outside of the node blob.
 * Vacuum should be updated to handle this new segment
 
@@ -35,10 +40,6 @@
 * In ES index storage, the type branch has the following properties: "versionid", "blobkey", "indexconfigkey", "path", "nodeid", "timestamp", "branch", "state"
 * "indexconfigkey" is a blob key: a hash of its content
 * Task deleting idxcfg not used
-
-## Epic4: Move as MetaData update
-* Node blobs should not contain the timestamp.
-* Rename/move will only update versionID, timestamp and path in indexes (no blob modification)
 
 ## Epic5: Vacuum old versions
 TBD
