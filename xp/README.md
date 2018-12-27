@@ -50,7 +50,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [ ] [Request filters](7.0/request-filter.md) (ARO)
 - [ ] Kubernetes (RMY)
 - [ ] [Image/CSS styles in HTML Area](https://github.com/enonic/enonic/blob/master/xp/features/image-styles.md) (ASE)
-- [ ] New user store/ID provider model (GRI)
+- [ ] [New user store/ID provider model](7.0/userstore-refactoring.md) (GRI)
 - [ ] Principal value type
 - [ ] [Flatten page structure](7.0/flatten-page.md) (ARO)
 - [ ] Query - Consistent path handling (GRI)
