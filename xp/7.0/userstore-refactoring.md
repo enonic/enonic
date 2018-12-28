@@ -1,12 +1,11 @@
 # User store / ID Provider refactoring
 
+## Epic1: Renaming
+
 The concept of "User store" and "ID Provider" will change in 7.0.
 
 - What was known as a "User store" is now an "ID Provider".
-- What was known as a "Associate an ID Provider to a User store" is now "Associate an application to an ID Provider" (similar to application to site).
-
-
-## Step1: Refactoring
+- What was known as "Associating an ID Provider to a User store" is now "Associating an application to an ID Provider" (similar to associating an application to site).
 
 This epic is about refactoring the code, the APIs to adapt to these changes.
 
@@ -22,14 +21,16 @@ This epic is about refactoring the code, the APIs to adapt to these changes.
   - Adapt messages
   
 Note:
-  Do not touch PrincipalPropertyNames.USER_STORE_KEY
-  Do not touch the Virtual Host config
-  
-## Step2: Data refactoring 
+  - Leave untouched the data (PrincipalPropertyNames.USER_STORE_KEY)
+  - Leave untouched the virtual host config
+  - In many cases, "ID Provider" was used correctly and should not be changed.
+For example, the ID Provider controller should remain under /idprovider/idprovider.js and the ID Provider URL (*/_/idprovider/<userstore>/*) should be left untouched.
+
+## Feature2: Data refactoring 
 - PrincipalPropertyNames.USER_STORE_KEY
 - Dump migration  
   
-## Step3: Enable ID Providers for a VHOST Mapping
+## Feature3: Enable ID Providers for a VHOST Mapping
 
 Modify VHost configuration
 
