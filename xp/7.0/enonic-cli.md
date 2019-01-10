@@ -76,7 +76,7 @@
 
 ### Remote Commands
 
-* `enonic remote ls` #Lists the tracked installations. By default only https://localhost:8080 is present
+* `enonic remote ls` #Lists the tracked installations. By default only http://localhost:8080 is present
 * `enonic remote add` #Adds a tracked installation
 * `enonic remote remove` #Removes a tracked installation
 * `enonic remote set` #Sets the default installation to be used by requests commands
