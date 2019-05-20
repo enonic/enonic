@@ -58,5 +58,10 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - ~~[ ] Removal of all backwards compatibility hacks~~
 - [x] Remove app-contentstudio from the XP distro and release it on Market
 
-## 7.1
+## 7.Y
+- [ ] Multi-language support
+- [ ] In Progress workflow
+- [ ] Suggest feature
+- [ ] Search highlighter
+- [ ] Vacuum 7.0
 - [ ] [Automatic data upgrade](7.0/automatic-data-upgrade.md)
