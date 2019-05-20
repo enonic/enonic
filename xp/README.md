@@ -45,18 +45,18 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [x] [Data migration](7.0/data-migration.md) (GRI)
 - [x] [Java 11 & ES Upgrade](7.0/java-11.md) (ARO/GRI)
 - [x] [Request filters](7.0/request-filter.md) (ARO)
-- [ ] [Improved storage](7.0/improved-version-storage.md) (GRI)
-- [ ] [HTML Area model](7.0/html-area-model.md) (GRI)
-- [ ] [Enonic CLI](7.0/enonic-cli.md) (ARO/GRI)
-- [ ] Kubernetes (RMY)
-- [ ] [Image/CSS styles in HTML Area](https://github.com/enonic/enonic/blob/master/xp/features/image-styles.md) (ASE)
-- [ ] [New user store/ID provider model](7.0/userstore-refactoring.md) (GRI)
-- [ ] Principal value type
-- [ ] [Flatten page structure](7.0/flatten-page.md) (ARO)
-- [ ] Query - Consistent path handling (GRI)
-- [ ] 7.0 backend backlog
-- [ ] Removal of all backwards compatibility hacks
-- [ ] Remove app-contentstudio from the XP distro and release it on Market
+- [x] [Improved storage](7.0/improved-version-storage.md) (GRI)
+- [x] [HTML Area model](7.0/html-area-model.md) (GRI)
+- [x] [Enonic CLI](7.0/enonic-cli.md) (ARO/GRI)
+- ~~[ ] Kubernetes (RMY)~~
+- [x] [Image/CSS styles in HTML Area](https://github.com/enonic/enonic/blob/master/xp/features/image-styles.md) (ASE)
+- [x] [New user store/ID provider model](7.0/userstore-refactoring.md) (GRI)
+- ~~[ ] Principal value type~~
+- [x] [Flatten page structure](7.0/flatten-page.md) (ARO)
+- ~~[ ] Query - Consistent path handling (GRI)~~
+- ~~[ ] 7.0 backend backlog~~
+- ~~[ ] Removal of all backwards compatibility hacks~~
+- [x] Remove app-contentstudio from the XP distro and release it on Market
 
 ## 7.1
 - [ ] [Automatic data upgrade](7.0/automatic-data-upgrade.md)
