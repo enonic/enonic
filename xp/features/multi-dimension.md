@@ -24,5 +24,9 @@ As a developer, I want to be able to push a content tree to a target dimension
 ## ContentService.pushToDimension
 * Variation of publish
 * 1 - Create branch if necessary
-* 2 - result = PushToDimensionCommand //Slightly different from PublishContentCommand. Should commit differently. No PENDING_DELETE special behaviour. Should return also the versionId for the results
+* 2 - result = PushToDimensionCommand //Slightly different from PublishContentCommand. Should commit differently. Different behaviour for PENDING_DELETE. Should return also the versionId for the results
 * 3 - For each result, nodeService.createVariant
+
+# Warning
+
+* Special case of PENDING_DELETE
