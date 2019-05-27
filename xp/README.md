@@ -58,8 +58,9 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - ~~[ ] Removal of all backwards compatibility hacks~~
 - [x] Remove app-contentstudio from the XP distro and release it on Market
 
-## 7.Y
-- [ ] Multi-language support
+## Q2 - 2019
+- [ ] [Multi-dimension contents](features/multi-dimension.md) (GRI)
+- [ ] Multi-language support - UI (ASE)
 - [ ] In Progress workflow
 - [ ] Suggest feature
 - [ ] Search highlighter
