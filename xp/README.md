@@ -59,9 +59,9 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [x] Remove app-contentstudio from the XP distro and release it on Market
 
 ## Q2 - 2019
-- [ ] [Multi-dimension contents](features/multi-dimension.md) (GRI)
-- [ ] Multi-language support - UI (ASE)
-- [ ] In Progress workflow
+- [ ] [Workflow (Runtime)](runtime/workflow.md) (GRI)
+- ~~[ ] [Multi-dimension contents](features/multi-dimension.md) (GRI)~~
+- [ ] Multi-language support (Runtime) (GRI)
 - [ ] Suggest feature
 - [ ] Search highlighter
 - [ ] Vacuum 7.0
