@@ -2,7 +2,7 @@
 
 # Requirements
 
-* Capability to store the workflow state
+* Add capability to store the workflow state
 * Backward compatibility: If "workflowInfo" is missing from storage, return as READY
 * On Content creation, set to IN_PROGRESS
 
