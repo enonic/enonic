@@ -3,6 +3,11 @@
 # Requirements
 
 * Add capability to store the workflow state
+  * On Content, new propertySet "workflow"
+    * "state": IN_PROGRESS || PENDING_APPROVAL || REJECTED || READY
+    * "checks": PropertySet
+      * "com-enonic-app-spellchecker-spellcheck1" : PENDING || REJECTED || APPROVED
+      * "com-enonic-app-myapp-check" : PENDING || REJECTED || APPROVED
 * Backward compatibility: If "workflowInfo" is missing from storage, return as READY
 * On Content creation, set to IN_PROGRESS
 
