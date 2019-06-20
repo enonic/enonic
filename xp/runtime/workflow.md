@@ -8,8 +8,7 @@
     * "checks": PropertySet
       * "com-enonic-app-spellchecker-spellcheck1" : PENDING || REJECTED || APPROVED
       * "com-enonic-app-myapp-check" : PENDING || REJECTED || APPROVED
-* Backward compatibility: If "workflowInfo" is missing from storage, return as READY
-* On Content creation, set to IN_PROGRESS
+* Backward compatibility: If "workflowInfo" is missing from storage or from parameter, return/set as READY
 
 # Breakdown
 
@@ -25,7 +24,7 @@ Create class com.enonic.xp.content.WorkflowInfo
   Field "checks" of type ImmutableMap<String, WorkflowCheckState>
     Check that the key is valid (Property.checkName) / Could create specific class instead of String
 Add new field "workflowInfo" on Content of type WorkflowInfo
-On Content creation, create a WorkflowInfo with state "IN_PROGRESS"
+On Content creation, create a WorkflowInfo with state "READY"
 If "workflowInfo" is missing from storage, return as READY 
 
 Adapt translation from/to Node (ContentDataSerializer)
