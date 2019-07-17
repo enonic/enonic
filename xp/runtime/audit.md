@@ -6,30 +6,25 @@
 - Applications must be able to use audit logs.
 - Core Services (except NodeService or services used by NodeService) must be able to use audit logs.
 - A JS library must wrap the Audit Log Service and expose its capabilities
-
-### Additional propositions
 - Audit Log API users must be able to store audit logs.
 - Audit Log API users must be able to retrieve/query audit logs.
-- Audit Log API users must be able to be notified on audit log storage
-- Audit Log is configurable
-
-### Problematics remaining
-
-- Handle fact that this data will keep growing in size. 
-  - Solution1: Split it into different repositories based on time
+- Audit Log API users must be able to be notified on audit log storage (Not in version 1)
+- Audit Log is configurable (Not in version 1)
+  - Audit Log can be disabled or not
+  - Audit Log data will be vacuumed automatically
 
 ## Data
 
+- Repository name: system.auditlog
 - AuditLog
   - id: AuditLogId // == NodeId OR RepositoryId+NodeId
   - type: String
   - level: AuditLogLevel
-  - timestamp: Instant
-  - bundleName: String //Alternative "applicationKey: ApplicationKey"
+  - logTime: Instant
+  - source: String //Alternative "applicationKey: ApplicationKey"
   - user: PrincipalKey
   - labels: String[]
-  - message: String //Alternative naming "action" or "description"
-  - data: String //Optional, Unstructured JSON
+  - data: PropertyTree
 
 ## API
 - AuditLogService
@@ -41,10 +36,5 @@
 - QueryAuditLogResult
   - total: long
   - hits: AuditLogs
-  
-## Event
 
-- Event type: "audit.log"
-- Event data:
-  - id // Serialized AuditLogId
   
