@@ -61,8 +61,9 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 ## Q2 - 2019
 - [ ] [Workflow (Runtime)](runtime/workflow.md) (GRI)
 - ~~[ ] [Multi-dimension contents](features/multi-dimension.md) (GRI)~~
-- [ ] Multi-language support (Runtime) (GRI)
-- [ ] Suggest feature
+- [x] [Child branch Prototype](https://github.com/enonic/xp/issues/7153) (GRI)
+- [ ] [Content Layer Prototype](https://github.com/enonic/xp/issues/7204) (GRI)
+- [ ] [Suggest](https://github.com/enonic/xp/issues/7199) (GRI)
 - [ ] Search highlighter
 - [ ] Vacuum 7.0
 - [ ] [Automatic data upgrade](7.0/automatic-data-upgrade.md)
