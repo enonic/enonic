@@ -17,7 +17,7 @@
 
 - Repository name: system.auditlog
 - AuditLog
-  - id: AuditLogId // == NodeId OR RepositoryId+NodeId
+  - id: AuditLogId // == NodeId
   - type: String
   - level: AuditLogLevel
   - logTime: Instant
