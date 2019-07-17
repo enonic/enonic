@@ -65,5 +65,6 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [ ] [Content Layer Prototype](https://github.com/enonic/xp/issues/7204) (GRI)
 - [ ] [Suggest](https://github.com/enonic/xp/issues/7199) (GRI)
 - [ ] Search highlighter
+- [ ] Audit Log(runtime/audit.md) (GRI)
 - [ ] Vacuum 7.0
 - [ ] [Automatic data upgrade](7.0/automatic-data-upgrade.md)
