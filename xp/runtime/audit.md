@@ -19,10 +19,10 @@
 - AuditLog
   - id: AuditLogId // == NodeId
   - type: String
-  - level: AuditLogLevel
-  - logTime: Instant
-  - source: String //Alternative "applicationKey: ApplicationKey"
-  - user: PrincipalKey
+  - level: AuditLogLevel //Default: INFO
+  - logTime: Instant //Default: Current time
+  - source: String //Default: Bundle name
+  - user: PrincipalKey //Default: Current User
   - labels: String[]
   - data: PropertyTree
 
