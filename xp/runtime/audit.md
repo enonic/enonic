@@ -20,7 +20,7 @@
 
 ## Data
 
-AuditLog
+- AuditLog
   - id: AuditLogId // == NodeId OR RepositoryId+NodeId
   - type: String
   - level: AuditLogLevel
@@ -31,14 +31,14 @@ AuditLog
   - message: String //Alternative naming "action" or "description"
   - data: String //Optional, Unstructured JSON
 
-## Service
+## API
+- AuditLogService
+  - log(LogAuditLogParams): AuditLog
+  - get(AuditLogId): AuditLog
+  - delete(AuditLogIds): AuditLog
+  - query(QueryAuditLogParams): QueryAuditLogResult
 
-AuditLogService.log(LogAuditLogParams): AuditLog
-AuditLogService.get(AuditLogId): AuditLog
-AuditLogService.delete(AuditLogIds): AuditLog
-AuditLogService.query(QueryAuditLogParams): QueryAuditLogResult
-
-QueryAuditLogResult
-  total: long
-  hits: AuditLogs
+- QueryAuditLogResult
+  - total: long
+  - hits: AuditLogs
   
