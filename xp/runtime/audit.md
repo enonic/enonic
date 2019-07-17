@@ -42,3 +42,9 @@
   - total: long
   - hits: AuditLogs
   
+## Event
+
+- Event type: "audit.log"
+- Event data:
+  - id // Serialized AuditLogId
+  
