@@ -9,9 +9,10 @@
 - Audit Log API users must be able to store audit logs.
 - Audit Log API users must be able to retrieve/query audit logs.
 - Audit Log API users must be able to be notified on audit log storage (Not in version 1)
-- Audit Log is configurable (Not in version 1)
+- Audit Log is configurable
   - Audit Log can be disabled or not
-  - Audit Log data will be vacuumed automatically
+- Audit Logs should also be logged. (configurable)
+- Audit Log data will be vacuumed automatically (Not in version 1)
 
 ## Data
 
@@ -19,11 +20,11 @@
 - AuditLog
   - id: AuditLogId // == NodeId
   - type: String
-  - level: AuditLogLevel //Default: INFO
-  - logTime: Instant //Default: Current time
+  - time: Instant //Default: Current time
   - source: String //Default: Bundle name
   - user: PrincipalKey //Default: Current User
-  - labels: String[]
+  - message: String //Default: Empty string
+  - object: URI[]
   - data: PropertyTree
 
 ## API
@@ -31,9 +32,9 @@
   - log(LogAuditLogParams): AuditLog
   - get(AuditLogId): AuditLog
   - delete(AuditLogIds): AuditLog
-  - query(QueryAuditLogParams): QueryAuditLogResult
+  - find(FindAuditLogParams): FindAuditLogResult
 
-- QueryAuditLogResult
+- FindAuditLogResult
   - total: long
   - hits: AuditLogs
 
