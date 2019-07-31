@@ -27,7 +27,7 @@ Content Project
 - No breaking change. You can continue to use the contextLib if you need to change between repositories (as you do today when wanting to change branches).
   - Proposition: Have a method 'run' in a project library, working like the context lib, but with concepts of project (and layers in the future).
 
-### Admin Rest
+## Admin Rest
 - For backward compatibility, we will keep all the /admin/rest/content/* endpoint
   - /admin/rest/content
   - /admin/rest/content/page
