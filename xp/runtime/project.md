@@ -17,15 +17,22 @@ Content Project
 - "cms-repo" has always been renamed to "com.enonic.cms.default" in 7.0
 - We will need an additional initialization step to create the default project metadata if needed.
 
+
+## Project service
+
+- Create new service ProjectService with the following methods
+  - list
+  - get
+  - create
+  - modify
+  - delete
+
 ## Content API + Content lib
 
-### Create/Retrieve/Update/Delete
-
-- We will need to add new functions to list/get/create/modify/delete content projects.
-  - New library? or adding to content library?
-    - Prefered solution: A new library, especially because of the next point.
-- No breaking change. You can continue to use the contextLib if you need to change between repositories (as you do today when wanting to change branches).
-  - Proposition: Have a method 'run' in a project library, working like the context lib, but with concepts of project (and layers in the future).
+- Create new library "project"
+  - Create functions: "list","get","create","modify","delete"
+  - Create function "run" in a project library, working by setting a context like the contextLib.run, but with concepts of project (and layer in the future).
+- Remove all places in the content level where the default CMS repo was used directly. Retrieve it from the current context.
 
 ## Admin Rest
 - For backward compatibility, we will keep all the /admin/rest/content/* endpoint
@@ -46,5 +53,6 @@ Content Project
   - /admin/rest/cms/[project]/[layer]/image
 - We will create a JAX-RS filter (As done in ContentLayer proto epic)
   - It will listen to /admin/rest/cms/[project]/[layer] and set the context to use the corresponding repository (We ignore layer for now)
+- Add new Admin Resource ti 
   
 
