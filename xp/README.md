@@ -67,7 +67,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [ ] [Highlight](https://github.com/enonic/xp/issues/7253) (GRI/VBR)
 
 ## >=7.2
-- [ ] [Audit Log](runtime/audit.md) (GRI/VBR/GBI)
-- [ ] Vacuum (7.0)
-- [ ] Content Project
-- [ ] [Automatic data upgrade](7.0/automatic-data-upgrade.md)
+- [ ] [Audit Log](runtime/audit.md) (GRI)
+- [ ] Vacuum (7.0) (GRI)
+- [ ] Content Project (GRI)
+- [ ] [Automatic data upgrade](7.0/automatic-data-upgrade.md) (GRI)
