@@ -58,13 +58,16 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - ~~[ ] Removal of all backwards compatibility hacks~~
 - [x] Remove app-contentstudio from the XP distro and release it on Market
 
-## Q2 - 2019
+## 7.1 & August2019 Prototype
 - [ ] [Workflow (Runtime)](runtime/workflow.md) (GRI)
-- ~~[ ] [Multi-dimension contents](features/multi-dimension.md) (GRI)~~
+- [ ] ~~[Multi-dimension contents](features/multi-dimension.md) (GRI)~~
 - [x] [Child branch Prototype](https://github.com/enonic/xp/issues/7153) (GRI)
 - [ ] [Content Layer Prototype](https://github.com/enonic/xp/issues/7204) (GRI)
-- [ ] [Suggest](https://github.com/enonic/xp/issues/7199) (GRI)
-- [ ] Search highlighter
-- [ ] [Audit Log](runtime/audit.md) (GRI)
-- [ ] Vacuum 7.0
+- [x] [Suggestions](https://github.com/enonic/xp/issues/7199) (GRI)
+- [ ] [Highlight](https://github.com/enonic/xp/issues/7253) (GRI/VBR)
+
+## >=7.2
+- [ ] [Audit Log](runtime/audit.md) (GRI/VBR/GBI)
+- [ ] Vacuum (7.0)
+- [ ] Content Project
 - [ ] [Automatic data upgrade](7.0/automatic-data-upgrade.md)
