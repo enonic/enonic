@@ -60,14 +60,14 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 ## 7.1 & August2019 Prototype
 - [ ] Workflow (Runtime) [specs](runtime/workflow.md) [epic](https://github.com/enonic/xp/issues/7149) (GRI)
-- [ ] ~~Multi-dimension contents [specs](features/multi-dimension.md) (GRI)~~
+-  ~~[ ] Multi-dimension contents [specs](features/multi-dimension.md) (GRI)~~
 - [x] Child branch Prototype [epic](https://github.com/enonic/xp/issues/7153) (GRI)
-- [ ] [Content Layer Prototype] [epic](https://github.com/enonic/xp/issues/7204) (GRI)
-- [x] [Suggestions] [epic](https://github.com/enonic/xp/issues/7199) (GRI)
-- [ ] [Highlight] [epic](https://github.com/enonic/xp/issues/7253) (GRI/VBR)
+- [ ] Content Layer Prototype [epic](https://github.com/enonic/xp/issues/7204) (GRI)
+- [x] Suggestions [epic](https://github.com/enonic/xp/issues/7199) (GRI)
+- [ ] Highlight [epic](https://github.com/enonic/xp/issues/7253) (GRI/VBR)
 
 ## >=7.2
-- [ ] [Audit Log] [specs](runtime/audit.md) [epic](https://github.com/enonic/xp/issues/7246) (GRI)
+- [ ] Audit Log [specs](runtime/audit.md) [epic](https://github.com/enonic/xp/issues/7246) (GRI)
 - [ ] Vacuum (7.0) (GRI)
 - [ ] Content Project (GRI)
-- [ ] [Automatic data upgrade] [specs](7.0/automatic-data-upgrade.md) (GRI)
+- [ ] Automatic data upgrade [specs](7.0/automatic-data-upgrade.md) (GRI)
