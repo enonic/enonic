@@ -53,6 +53,6 @@ Content Project
   - /admin/rest/cms/[project]/[layer]/image
 - We will create a JAX-RS filter (As done in ContentLayer proto epic)
   - It will listen to /admin/rest/cms/[project]/[layer] and set the context to use the corresponding repository (We ignore layer for now)
-- Add new Admin Resource ti 
+- Add new Admin Resource to "list","get","create","modify","delete" projects
   
 
