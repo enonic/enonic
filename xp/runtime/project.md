@@ -1,9 +1,11 @@
 # Content Projects
 
-The goal is to allow to have content data split into different independant content projects (CMS repositories).
+The goal is to allow to have CMS data split into different independant content projects (CMS repositories).
 
 These CMS repositories are repositories prefixed by "com.enonic.cms."
 The project "default" is always present ("com.enonic.cms.default").
+
+The project metadata (display name, description icon, ...) will be stored as a node in the master branch of the repository of the project.
 
 ## Data
 Content Project
@@ -14,8 +16,7 @@ Content Project
 
 ## Initialization
 
-- "cms-repo" has always been renamed to "com.enonic.cms.default" in 7.0
-- We will need an additional initialization step to create the default project metadata if needed.
+- "cms-repo" has always been renamed to "com.enonic.cms.default" in 7.0 but will need an additional initialization step to create the default project metadata if needed.
 
 
 ## Project service
