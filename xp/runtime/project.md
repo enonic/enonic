@@ -16,7 +16,7 @@ Content Project
 
 ## Initialization
 
-- "cms-repo" has always been renamed to "com.enonic.cms.default" in 7.0 but will need an additional initialization step to create the default project metadata if needed.
+- "cms-repo" has already been renamed to "com.enonic.cms.default" in 7.0 but will need an additional initialization step to create the default project metadata if needed.
 
 
 ## Project service
