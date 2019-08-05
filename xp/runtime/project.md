@@ -5,7 +5,7 @@ The goal is to allow to have CMS data split into different independant content p
 These CMS repositories are repositories prefixed by "com.enonic.cms."
 The project "default" is always present ("com.enonic.cms.default").
 
-The project metadata (display name, description icon, ...) will be stored as a node in the master branch of the repository of the project.
+The project metadata (display name, description icon, ...) will be stored as a node "/project" in the master branch of the repository of the project.
 
 ## Data
 Content Project
