@@ -68,7 +68,7 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 
 ## >=7.2
 - [ ] Audit Log [specs](runtime/audit.md) [epic](https://github.com/enonic/xp/issues/7246) (GRI)
-- [ ] Content Project [specs](runtime/project.md) (GRI)
-- [ ] Vacuum (7.0) (GRI)
+- [ ] Content Project [specs](runtime/project.md) [epic](https://github.com/enonic/xp/issues/7280) (GRI)
+- [ ] Vacuum (7.0) [specs](runtime/vacuum.md) (GRI)
 - [ ] Automatic data upgrade [specs](7.0/automatic-data-upgrade.md) (GRI)
 - [ ] Get node by version [epic](https://github.com/enonic/xp/issues/7319) (GRI)
