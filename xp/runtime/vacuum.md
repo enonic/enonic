@@ -2,14 +2,14 @@
 
 As an ops, I want to be able to clean up unnecessary storage (unused blobs/binaries/versions=...)
 
-# Requirement
+## Requirement
 
 * Endpoint available on the management port, under /system/vacuum
 * The following should be vacuumed
   * 1 - Unused segments (repositories)
-  * 2 - Unused node versions
-    * 2.1 - Deleted from branch
-    * 2.2 - 
+  * 2 - Unused node versions (non commited)
+    * 2.1 - When the node is deleted from branch
+    * 2.2 - OR the version is older than X and not commited
   * Unused blobs
     * 3 - Unused node blobs
     * 4 - Unused binaries
@@ -19,7 +19,7 @@ As an ops, I want to be able to clean up unnecessary storage (unused blobs/binar
   * Threshold
   * Tasks to execute
   
-# Propositions
+## Propositions
 
 * Allow to gracefully stop the vacuum
 
