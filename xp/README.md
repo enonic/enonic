@@ -72,3 +72,4 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [ ] Vacuum (7.0) [specs](runtime/vacuum.md) (GRI)
 - [ ] Automatic data upgrade [specs](7.0/automatic-data-upgrade.md) (GRI)
 - [ ] Get node by version [epic](https://github.com/enonic/xp/issues/7319) (GRI)
+- [ ] Revert version (GRI)
