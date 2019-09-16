@@ -69,8 +69,9 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 ## >=7.2
 - [x] Get node by version [epic](https://github.com/enonic/xp/issues/7319) (GRI)
 - [x] Audit Log [specs](runtime/audit.md) [epic](https://github.com/enonic/xp/issues/7246) (GRI)
+- [ ] Repository Data [epic](https://github.com/enonic/xp/issues/7407) (GRI)
 - [ ] Content Project [specs](runtime/project.md) [epic](https://github.com/enonic/xp/issues/7280) (GRI)
-- [ ] Revert version [epic](https://github.com/enonic/agile-dev/issues/33) (GRI)
+- [ ] Content Revert [epic](https://github.com/enonic/xp/issues/7418) (GRI)
 - [ ] Vacuum (7.0) [specs](runtime/vacuum.md) (GRI)
 - [ ] Automatic data upgrade [specs](7.0/automatic-data-upgrade.md) (GRI)
 
