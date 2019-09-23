@@ -1,6 +1,6 @@
 # Vacuum 7
 
-As an ops, I want to be able to clean up unnecessary storage (unused blobs/binaries/versions=...)
+As an ops, I want to be able to clean up unnecessary storage (unused blobs/binaries/versions/...)
 
 ## Requirement
 
