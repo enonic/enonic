@@ -44,14 +44,17 @@ Content Project
   - /admin/rest/content/icon
   - /admin/rest/content/media
   - /admin/rest/content/image
+  - /admin/rest/schema/content
 - And make them listen additionaly to respectively:
-  - /admin/rest/cms/[project]/[layer]
-  - /admin/rest/cms/[project]/[layer]/page
-  - /admin/rest/cms/[project]/[layer]/page/template
-  - /admin/rest/cms/[project]/[layer]/page/fragment
-  - /admin/rest/cms/[project]/[layer]/icon
-  - /admin/rest/cms/[project]/[layer]/media
-  - /admin/rest/cms/[project]/[layer]/image
+  - /admin/rest/cms/[project]/[layer]/content
+  - /admin/rest/cms/[project]/[layer]/content/page
+  - /admin/rest/cms/[project]/[layer]/content/page/template
+  - /admin/rest/cms/[project]/[layer]/content/page/fragment
+  - /admin/rest/cms/[project]/[layer]/content/icon
+  - /admin/rest/cms/[project]/[layer]/content/media
+  - /admin/rest/cms/[project]/[layer]/content/image
+  - /admin/rest/cms/[project]/[layer]/schema/content
+  - /admin/rest/cms/[project]/[layer]/schema/xdata
 - We will create a JAX-RS filter (As done in ContentLayer proto epic)
   - It will listen to /admin/rest/cms/[project]/[layer] and set the context to use the corresponding repository (We ignore layer for now)
 - Add new Admin Resource to "list","get","create","modify","delete" projects
