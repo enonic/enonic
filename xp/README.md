@@ -75,5 +75,10 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 ## 7.3
 - [ ] Repository Data [epic](https://github.com/enonic/xp/issues/7407) (GRI)
 - [ ] Content Project [specs](runtime/project.md) [epic](https://github.com/enonic/xp/issues/7280) (GRI)
+
+## 7.4
+- [ ] Content Layer
+
+## TBD
 - [ ] Automatic data upgrade [specs](7.0/automatic-data-upgrade.md) (GRI)
 
