@@ -23,6 +23,6 @@ Unlike the prototype:
   - uses NodeService and ProjectService
   - is used by ContentService
 - VersionTags
-  - Add the concept of tags. Will be stored in branch and version ES documents
+  - Add the concept of tags in Node. Will be stored in branch and version ES documents
   - Should be returned on NodeComparison
 - For each node operation, apply necessary additional treatment (Special push)
