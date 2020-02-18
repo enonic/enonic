@@ -49,9 +49,9 @@
 ## To Be Defined
 - Tag format
 - JS Library (Proposition)
-  Manipulating context through the context lib is a bit too low level now. It would be better to have a project library
-  Example #1: projectLib.run taking as parameter a projectName and layerName
-  Example #2: projectLib.list/get/...
+  - Manipulating context through the context lib is a bit too low level now. It would be better to have a project library
+    - Example #1: projectLib.run taking as parameter a projectName and layerName
+    - Example #2: projectLib.list/get/...
 
 ## Steps
 - Project Settings
