@@ -42,10 +42,16 @@
   - If root permissions changed -> Push* node to child branches
   - If node imported -> Push* node to child branches
   - For all other operations, do nothing more
+  
+* Admin Rest interface needs to be updated to handle layer
+* Proposition: 
 
 ## To Be Defined
 - Tag format
-
+- JS Library (Proposition)
+  Manipulating context through the context lib is a bit too low level now. It would be better to have a project library
+  Example #1: projectLib.run taking as parameter a projectName and layerName
+  Example #2: projectLib.list/get/...
 
 ## Steps
 - Project Settings
