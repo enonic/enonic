@@ -42,9 +42,15 @@
   - If root permissions changed -> Push* node to child branches
   - If node imported -> Push* node to child branches
   - For all other operations, do nothing more
+- When updating the layers settings of a project on Project API
+  - When adding a layer
+    - Create corresponding draft/master branches
+    - Push all current contents from the parent to the new draft child branch
+  - When deleting a layer
+    - A layer with a child layer cannot be deleted
+    - Delete corresponding draft/master branches
   
 * Admin Rest interface needs to be updated to handle layer
-* Proposition: 
 
 ## To Be Defined
 - Tag format
