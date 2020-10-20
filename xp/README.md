@@ -73,11 +73,11 @@ This document describes the Enonic XP roadmap. Items can be linked to issues or 
 - [x] Vacuum (7.0) [specs](runtime/vacuum.md) (GRI)
 
 ## 7.3
-- [ ] Repository Data [epic](https://github.com/enonic/xp/issues/7407) (GRI)
-- [ ] Content Project [specs](runtime/project.md) [epic](https://github.com/enonic/xp/issues/7280) (GRI)
+- [x] Repository Data [epic](https://github.com/enonic/xp/issues/7407)
+- [x] Content Project [specs](runtime/project.md) [epic](https://github.com/enonic/xp/issues/7280)
 
-## 7.4
-- [ ] Content Layer [specs](features/content-layers.md) (GRI)
+## 7.6
+- [ ] Content Layer [specs](features/content-layers.md) 
 
 ## TBD
 - [ ] Automatic data upgrade [specs](7.0/automatic-data-upgrade.md) (GRI)
