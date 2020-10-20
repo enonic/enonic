@@ -7,9 +7,11 @@ Items can also be annotated with the following icons:
 
 ## First half 2020:
 
-* [Shareit release version 1](https://github.com/enonic/app-shareit)
-* [Release React4Xp](https://github.com/enonic/starter-react4xp)
-* [Web crawler](https://github.com/enonic/app-explorer-collector-web-crawler)
+* ~~[ ] [Shareit release version 1](https://github.com/enonic/app-shareit)~~
+* ~~[x] [Release React4Xp](https://github.com/enonic/starter-react4xp)~~
+* ~~[x] [Explorer](https://github.com/enonic/app-explorer-collector-web-crawler)~~
 
 ## Second half 2020:
-    None yet 
+    [ ] React 4xp headless changes
+    [ ] Fotoware app
+    [ ] App Audit-log
